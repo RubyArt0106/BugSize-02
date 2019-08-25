@@ -1,0 +1,2861 @@
+fileFormatVersion: 2
+guid: 19c6f668f7b8c4645bc9b8da065bfe97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4828712686816627942
+    second: Explosion_001_Tile_8x8_256x256_0
+  - first:
+      213: -9176479904986653774
+    second: Explosion_001_Tile_8x8_256x256_1
+  - first:
+      213: 3747869685079922301
+    second: Explosion_001_Tile_8x8_256x256_2
+  - first:
+      213: 8841311061426172100
+    second: Explosion_001_Tile_8x8_256x256_3
+  - first:
+      213: -2886047041560025338
+    second: Explosion_001_Tile_8x8_256x256_4
+  - first:
+      213: -8568639574553493129
+    second: Explosion_001_Tile_8x8_256x256_5
+  - first:
+      213: 1924985728839751650
+    second: Explosion_001_Tile_8x8_256x256_6
+  - first:
+      213: -8071577412962897157
+    second: Explosion_001_Tile_8x8_256x256_7
+  - first:
+      213: -8830153983674084572
+    second: Explosion_001_Tile_8x8_256x256_8
+  - first:
+      213: 3486360482334123455
+    second: Explosion_001_Tile_8x8_256x256_9
+  - first:
+      213: 6166352662371653824
+    second: Explosion_001_Tile_8x8_256x256_10
+  - first:
+      213: -6681653533334900709
+    second: Explosion_001_Tile_8x8_256x256_11
+  - first:
+      213: -5252163435985435561
+    second: Explosion_001_Tile_8x8_256x256_12
+  - first:
+      213: -7498585298367951962
+    second: Explosion_001_Tile_8x8_256x256_13
+  - first:
+      213: 2416618602788293445
+    second: Explosion_001_Tile_8x8_256x256_14
+  - first:
+      213: 1179020932224547832
+    second: Explosion_001_Tile_8x8_256x256_15
+  - first:
+      213: -4487741220314952033
+    second: Explosion_001_Tile_8x8_256x256_16
+  - first:
+      213: 8148754502625721361
+    second: Explosion_001_Tile_8x8_256x256_17
+  - first:
+      213: 1665155972735265147
+    second: Explosion_001_Tile_8x8_256x256_18
+  - first:
+      213: -8277423529331996711
+    second: Explosion_001_Tile_8x8_256x256_19
+  - first:
+      213: -8000656739618650508
+    second: Explosion_001_Tile_8x8_256x256_20
+  - first:
+      213: -8270176022795722229
+    second: Explosion_001_Tile_8x8_256x256_21
+  - first:
+      213: 6943993490969587560
+    second: Explosion_001_Tile_8x8_256x256_22
+  - first:
+      213: 5496127492549461230
+    second: Explosion_001_Tile_8x8_256x256_23
+  - first:
+      213: 5403850951139257562
+    second: Explosion_001_Tile_8x8_256x256_24
+  - first:
+      213: -1863057600870212698
+    second: Explosion_001_Tile_8x8_256x256_25
+  - first:
+      213: -1760850174519074421
+    second: Explosion_001_Tile_8x8_256x256_26
+  - first:
+      213: -8316660725435860924
+    second: Explosion_001_Tile_8x8_256x256_27
+  - first:
+      213: 943681422330521745
+    second: Explosion_001_Tile_8x8_256x256_28
+  - first:
+      213: -2645024976668727386
+    second: Explosion_001_Tile_8x8_256x256_29
+  - first:
+      213: -4288993166990807742
+    second: Explosion_001_Tile_8x8_256x256_30
+  - first:
+      213: 673429216462442201
+    second: Explosion_001_Tile_8x8_256x256_31
+  - first:
+      213: 1497031587769755269
+    second: Explosion_001_Tile_8x8_256x256_32
+  - first:
+      213: 2540776694275856742
+    second: Explosion_001_Tile_8x8_256x256_33
+  - first:
+      213: -5342419468385286944
+    second: Explosion_001_Tile_8x8_256x256_34
+  - first:
+      213: -5947937843546842087
+    second: Explosion_001_Tile_8x8_256x256_35
+  - first:
+      213: -6108036226231401973
+    second: Explosion_001_Tile_8x8_256x256_36
+  - first:
+      213: 6734684081612836650
+    second: Explosion_001_Tile_8x8_256x256_37
+  - first:
+      213: -3038986532998349845
+    second: Explosion_001_Tile_8x8_256x256_38
+  - first:
+      213: -617315048352134713
+    second: Explosion_001_Tile_8x8_256x256_39
+  - first:
+      213: -7251286252137150133
+    second: Explosion_001_Tile_8x8_256x256_40
+  - first:
+      213: -5941386932791549267
+    second: Explosion_001_Tile_8x8_256x256_41
+  - first:
+      213: 9184561225007134755
+    second: Explosion_001_Tile_8x8_256x256_42
+  - first:
+      213: -7051258562687760623
+    second: Explosion_001_Tile_8x8_256x256_43
+  - first:
+      213: -6441819403735949023
+    second: Explosion_001_Tile_8x8_256x256_44
+  - first:
+      213: 6147026064752541047
+    second: Explosion_001_Tile_8x8_256x256_45
+  - first:
+      213: -2104570092067452639
+    second: Explosion_001_Tile_8x8_256x256_46
+  - first:
+      213: 2281973662313133950
+    second: Explosion_001_Tile_8x8_256x256_47
+  - first:
+      213: 9136120760636944633
+    second: Explosion_001_Tile_8x8_256x256_48
+  - first:
+      213: 968647769095712224
+    second: Explosion_001_Tile_8x8_256x256_49
+  - first:
+      213: 2055258919267035147
+    second: Explosion_001_Tile_8x8_256x256_50
+  - first:
+      213: -4311491906954986095
+    second: Explosion_001_Tile_8x8_256x256_51
+  - first:
+      213: 3275340624888270999
+    second: Explosion_001_Tile_8x8_256x256_52
+  - first:
+      213: 5492017958169198554
+    second: Explosion_001_Tile_8x8_256x256_53
+  - first:
+      213: 4501729108812043982
+    second: Explosion_001_Tile_8x8_256x256_54
+  - first:
+      213: -5610419123249633484
+    second: Explosion_001_Tile_8x8_256x256_55
+  - first:
+      213: 3364304391250375498
+    second: Explosion_001_Tile_8x8_256x256_56
+  - first:
+      213: 6954255487787178554
+    second: Explosion_001_Tile_8x8_256x256_57
+  - first:
+      213: 7241771127392538644
+    second: Explosion_001_Tile_8x8_256x256_58
+  - first:
+      213: 5339502531175337873
+    second: Explosion_001_Tile_8x8_256x256_59
+  - first:
+      213: 785688142977374012
+    second: Explosion_001_Tile_8x8_256x256_60
+  - first:
+      213: -1559808801232304499
+    second: Explosion_001_Tile_8x8_256x256_61
+  - first:
+      213: -4841854128592044298
+    second: Explosion_001_Tile_8x8_256x256_62
+  - first:
+      213: 8652434321466500212
+    second: Explosion_001_Tile_8x8_256x256_63
+  - first:
+      213: -27749887014296869
+    second: Explosion_001_Tile_8x8_256x256_64
+  - first:
+      213: -6726422174103669173
+    second: Explosion_001_Tile_8x8_256x256_65
+  - first:
+      213: -5427575333758685853
+    second: Explosion_001_Tile_8x8_256x256_66
+  - first:
+      213: 262018209986404048
+    second: Explosion_001_Tile_8x8_256x256_67
+  - first:
+      213: 7463200559945287713
+    second: Explosion_001_Tile_8x8_256x256_68
+  - first:
+      213: 6803844560234892012
+    second: Explosion_001_Tile_8x8_256x256_69
+  - first:
+      213: 3505351669895198568
+    second: Explosion_001_Tile_8x8_256x256_70
+  - first:
+      213: -8681945583450953146
+    second: Explosion_001_Tile_8x8_256x256_71
+  - first:
+      213: -4139553240761379098
+    second: Explosion_001_Tile_8x8_256x256_72
+  - first:
+      213: 1951196703974859452
+    second: Explosion_001_Tile_8x8_256x256_73
+  - first:
+      213: -1154835101380170485
+    second: Explosion_001_Tile_8x8_256x256_74
+  - first:
+      213: 4953415227049536499
+    second: Explosion_001_Tile_8x8_256x256_75
+  - first:
+      213: -1215702841223276381
+    second: Explosion_001_Tile_8x8_256x256_76
+  - first:
+      213: -6501454356174435948
+    second: Explosion_001_Tile_8x8_256x256_77
+  - first:
+      213: -4325721817439203744
+    second: Explosion_001_Tile_8x8_256x256_78
+  - first:
+      213: -3042174000318160203
+    second: Explosion_001_Tile_8x8_256x256_79
+  - first:
+      213: 9141996183039120344
+    second: Explosion_001_Tile_8x8_256x256_80
+  - first:
+      213: -6232154247696774607
+    second: Explosion_001_Tile_8x8_256x256_81
+  - first:
+      213: 737164457012856885
+    second: Explosion_001_Tile_8x8_256x256_82
+  - first:
+      213: -3085184943198104717
+    second: Explosion_001_Tile_8x8_256x256_83
+  - first:
+      213: -2312785160552503033
+    second: Explosion_001_Tile_8x8_256x256_84
+  - first:
+      213: -4402477548946847019
+    second: Explosion_001_Tile_8x8_256x256_85
+  - first:
+      213: -8747780132725019210
+    second: Explosion_001_Tile_8x8_256x256_86
+  - first:
+      213: 4563069078420760219
+    second: Explosion_001_Tile_8x8_256x256_87
+  - first:
+      213: -8403606318287615846
+    second: Explosion_001_Tile_8x8_256x256_88
+  - first:
+      213: -2690073399117216931
+    second: Explosion_001_Tile_8x8_256x256_89
+  - first:
+      213: 5483962218699362331
+    second: Explosion_001_Tile_8x8_256x256_90
+  - first:
+      213: -3950043124145298961
+    second: Explosion_001_Tile_8x8_256x256_91
+  - first:
+      213: 504294494091988997
+    second: Explosion_001_Tile_8x8_256x256_92
+  - first:
+      213: 5079509413552828591
+    second: Explosion_001_Tile_8x8_256x256_93
+  - first:
+      213: 2751730235059660132
+    second: Explosion_001_Tile_8x8_256x256_94
+  - first:
+      213: 2527964411871578253
+    second: Explosion_001_Tile_8x8_256x256_95
+  - first:
+      213: 3019254130197071522
+    second: Explosion_001_Tile_8x8_256x256_96
+  - first:
+      213: -258379896449703488
+    second: Explosion_001_Tile_8x8_256x256_97
+  - first:
+      213: 3530965489121866603
+    second: Explosion_001_Tile_8x8_256x256_98
+  - first:
+      213: 1314566889131426803
+    second: Explosion_001_Tile_8x8_256x256_99
+  - first:
+      213: -6392312511113910359
+    second: Explosion_001_Tile_8x8_256x256_100
+  - first:
+      213: -438584336789142734
+    second: Explosion_001_Tile_8x8_256x256_101
+  - first:
+      213: -5594614434041696849
+    second: Explosion_001_Tile_8x8_256x256_102
+  - first:
+      213: -200048539099462201
+    second: Explosion_001_Tile_8x8_256x256_103
+  - first:
+      213: 6907330969255295297
+    second: Explosion_001_Tile_8x8_256x256_104
+  - first:
+      213: -2257472882421695990
+    second: Explosion_001_Tile_8x8_256x256_105
+  - first:
+      213: 5682892768919382323
+    second: Explosion_001_Tile_8x8_256x256_106
+  - first:
+      213: -5381314178914590107
+    second: Explosion_001_Tile_8x8_256x256_107
+  - first:
+      213: 1560273855427495524
+    second: Explosion_001_Tile_8x8_256x256_108
+  - first:
+      213: 7318649059872775925
+    second: Explosion_001_Tile_8x8_256x256_109
+  - first:
+      213: 1158439164957728933
+    second: Explosion_001_Tile_8x8_256x256_110
+  - first:
+      213: -4860407548081051463
+    second: Explosion_001_Tile_8x8_256x256_111
+  - first:
+      213: -8380740012070561563
+    second: Explosion_001_Tile_8x8_256x256_112
+  - first:
+      213: 2590569422726881787
+    second: Explosion_001_Tile_8x8_256x256_113
+  - first:
+      213: -5565924135620211576
+    second: Explosion_001_Tile_8x8_256x256_114
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1921
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bb65460170ab34599efa9779b38b08
+      internalID: -4828712686816627942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1897
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0da830b71c9394a88396ace038dd21
+      internalID: -9176479904986653774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1880
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69277b3ee56e91c49b9c7e99d479e3b8
+      internalID: 3747869685079922301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1865
+        width: 88
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b814b9c0b4f5dd4489ab8ba2542f3547
+      internalID: 8841311061426172100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_4
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1852
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0ff10150e331949816eb93e632a9a7
+      internalID: -2886047041560025338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_5
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1844
+        width: 123
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d950b06ab2289d4d9b60e4727d516a0
+      internalID: -8568639574553493129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_6
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1843
+        width: 137
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e432f2312a5f4d44a769db229e1abb5
+      internalID: 1924985728839751650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_7
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1842
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4067a24c845f9db4a9e62a39aef9f837
+      internalID: -8071577412962897157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1914
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb51e9e27b655fc4996a1fa55cc434e8
+      internalID: -8830153983674084572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1586
+        width: 154
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f50925f37e5e744b82cab34ad780eb
+      internalID: 3486360482334123455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1586
+        width: 156
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79321cfd47af624449686f1e546089c3
+      internalID: 6166352662371653824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_11
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1586
+        width: 157
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02b194ab0a531f4396f339f0a508e30
+      internalID: -6681653533334900709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_12
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1585
+        width: 157
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab4009753cc76940a587542387081d5
+      internalID: -5252163435985435561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_13
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1583
+        width: 157
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d4f07d933df984cbb5a4bc4bb5c517
+      internalID: -7498585298367951962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_14
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1583
+        width: 157
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63187bc5d79e944b85d60115a1979c9
+      internalID: 2416618602788293445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_15
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1583
+        width: 158
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99658bbbf4fb2cc43ab4334de1e4101f
+      internalID: 1179020932224547832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_16
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1581
+        width: 160
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d52672bb1406424e8974c8d35abdd58
+      internalID: -4487741220314952033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1324
+        width: 160
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1272156b3a084a1438e24327f51b2dd2
+      internalID: 8148754502625721361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1324
+        width: 160
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1584e0cc53c2f334a94a1cb25b148d64
+      internalID: 1665155972735265147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_19
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1324
+        width: 163
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17935ec54db6c4b4392b467980f48b6b
+      internalID: -8277423529331996711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_20
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1324
+        width: 165
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955516d4a3cdee642a1dfeabfeea9da5
+      internalID: -8000656739618650508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_21
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1323
+        width: 167
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f23479270ac741b0e47bf237df56e
+      internalID: -8270176022795722229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_22
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1322
+        width: 168
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee0f2b8e1b3de4aacab86316505d1f
+      internalID: 6943993490969587560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_23
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1321
+        width: 170
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf4a37e0788d904e968e26ba151fd03
+      internalID: 5496127492549461230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_24
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1320
+        width: 173
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc8499c853d4b146b3877f812b5cbb3
+      internalID: 5403850951139257562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1063
+        width: 175
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f153357004d4546970233b78aadd0b
+      internalID: -1863057600870212698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1062
+        width: 177
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3a7f34b3ac9174bb015d021b6d0c15
+      internalID: -1760850174519074421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_27
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1061
+        width: 179
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a145552d23e07f4f9c5e44c0959d3f8
+      internalID: -8316660725435860924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1060
+        width: 181
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cf6d5f879abbf4493ebaac888923fa
+      internalID: 943681422330521745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_29
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1059
+        width: 183
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6ade9d25a6e7348970c1ed325d10ed
+      internalID: -2645024976668727386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_30
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1059
+        width: 185
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73adb99557c70d5448245bc17c9cf2d7
+      internalID: -4288993166990807742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_31
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1058
+        width: 187
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6848472788d463b4ea36a44e4903292b
+      internalID: 673429216462442201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_32
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1058
+        width: 190
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866d3f684d8f24447829f50ef8db3773
+      internalID: 1497031587769755269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_33
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 801
+        width: 191
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7f48abe5d3c7c4eb027e157e48665c
+      internalID: 2540776694275856742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_34
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 801
+        width: 192
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a17e29493358df40b15f8b9c4ef25d6
+      internalID: -5342419468385286944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_35
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 801
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7777a9bb310a4734ea0fc01e59dbe39c
+      internalID: -5947937843546842087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_36
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 923
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d232e1c6823ed04596265041203dde5
+      internalID: -6108036226231401973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_37
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 800
+        width: 197
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ee5e80d0aa4914dba6f5e2caa37ff5
+      internalID: 6734684081612836650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_38
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 799
+        width: 198
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10164a5efb46e84c833d16be717532f
+      internalID: -3038986532998349845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_39
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 798
+        width: 200
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996435f38d7bae642b1e326c981e1f12
+      internalID: -617315048352134713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_40
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 797
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756004a482c77af41955af56a53ca0d5
+      internalID: -7251286252137150133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_41
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 797
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a9c00d5114269418c6d7b52f041695
+      internalID: -5941386932791549267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_42
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 923
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea283846f146d6340aae73822eeaf3fc
+      internalID: 9184561225007134755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_43
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 895
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c695d3e9c476e764b85a413c75b91561
+      internalID: -7051258562687760623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_44
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 876
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f5f5874c3881f4c9fe359b3b252676
+      internalID: -6441819403735949023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_45
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 807
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ec2dac3f879484ebade885d3b61b88
+      internalID: 6147026064752541047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_46
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 798
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1251e30450bfc5040a8ac99bf895f1c4
+      internalID: -2104570092067452639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_47
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 540
+        width: 200
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f940e5067b84744b95e2e55ad2c7ded
+      internalID: 2281973662313133950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 539
+        width: 201
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557b1c66d599a864b9140c72a3a5939d
+      internalID: 9136120760636944633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_49
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 539
+        width: 201
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267817da334aea348bbc5f5fc275a611
+      internalID: 968647769095712224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_50
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 667
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0da8996668e3643aa7c03ed50a6b3f
+      internalID: 2055258919267035147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_51
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 538
+        width: 202
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53601221878fa7f4c81b2eca3f0a1506
+      internalID: -4311491906954986095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_52
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 538
+        width: 202
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33d263e08a16d5429a331fef3cad807
+      internalID: 3275340624888270999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_53
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 537
+        width: 202
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afffdd8f5a96e0649978e4100c43439a
+      internalID: 5492017958169198554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_54
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 536
+        width: 202
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96efd85eb7c4c44fbb6dab89c5963bb
+      internalID: 4501729108812043982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_55
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 536
+        width: 202
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e233f9a4d3e736345b88d81d3b599f20
+      internalID: -5610419123249633484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_56
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 650
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d999c232258b546ad40f18a64098a0
+      internalID: 3364304391250375498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_57
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 649
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae56b4a31b2e9c54789c0344ef6fb31b
+      internalID: 6954255487787178554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_58
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 649
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386fbfb7074f21845b40458a6ce23d3d
+      internalID: 7241771127392538644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_59
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 649
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c8e83a798501041be10852c26489aa
+      internalID: 5339502531175337873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_60
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 637
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b76d07c77c74bc4085e18b3900b59de
+      internalID: 785688142977374012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_61
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 614
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8903737b668e27e45a7180a956ea3850
+      internalID: -1559808801232304499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 551
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74914c7292045ea42b92a62fa93bb6f1
+      internalID: -4841854128592044298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_63
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 279
+        width: 197
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b2df42de9b21248a8786f50265e1dd
+      internalID: 8652434321466500212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_64
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 279
+        width: 199
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e582eea4d109c44961b56dd5074e43
+      internalID: -27749887014296869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_65
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 278
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541310fa1be4375438b197a4da76c026
+      internalID: -6726422174103669173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_66
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 278
+        width: 195
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714361c014c4425419da6dd002a255c6
+      internalID: -5427575333758685853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_67
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 278
+        width: 196
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df7e2c0dd550d046abe0fa98627edaf
+      internalID: 262018209986404048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_68
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 278
+        width: 197
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9b27cd5636ca84180f4aff0a6d7a20
+      internalID: 7463200559945287713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_69
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 284
+        width: 198
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a90ba81d32e6649a214965d9615a0a
+      internalID: 6803844560234892012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_70
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 288
+        width: 200
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5228c079488283f44927df5e1fa2dbaa
+      internalID: 3505351669895198568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_71
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 458
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311fbeda90c3d4e43925c89e89fd2061
+      internalID: -8681945583450953146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_72
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 411
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77934892e2c523741ae822a13b097de5
+      internalID: -4139553240761379098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_73
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 394
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92a652db6b518943a11074bb0a9f01d
+      internalID: 1951196703974859452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_74
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 400
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ea00e0a748f0049b5fb9a176f9fae6
+      internalID: -1154835101380170485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_75
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 396
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948bc0e243c744f41985b35ba420060c
+      internalID: 4953415227049536499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 381
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9852b170cfe9a564ea000520b98f66a3
+      internalID: -1215702841223276381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_77
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 378
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a066a35f418b244da749ac217e1944c
+      internalID: -6501454356174435948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_78
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 380
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbba7ff4e33b83e4eaf1b79ade1e837c
+      internalID: -4325721817439203744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_79
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 379
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da216c63673594242a5e7222cc7807f2
+      internalID: -3042174000318160203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_80
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 364
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56b1a1387494f342a7c5f16a65db866
+      internalID: 9141996183039120344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_81
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 361
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba04c459dfcc1478a6a2f31b68aecd
+      internalID: -6232154247696774607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_82
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 362
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e8ce5a7a7a5864297b4ddddd9a2e6f
+      internalID: 737164457012856885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_83
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 361
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f065f1ea73e041b19e2bc234ecd96
+      internalID: -3085184943198104717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_84
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 345
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e139e45a459be49997df7b31a20528
+      internalID: -2312785160552503033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_85
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 303
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789f58752204a204ca2f5194012a98cb
+      internalID: -4402477548946847019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_86
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 306
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823ef0cf6066c7c42ba29a0f06359e68
+      internalID: -8747780132725019210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_87
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 302
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d75a0eb67e29054495145241d83eb65
+      internalID: 4563069078420760219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_88
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 302
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0e99c25617f684d9c916adcb63a342
+      internalID: -8403606318287615846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_89
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 201
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b048960d9f3c61a43bcb581ca7ddd2cf
+      internalID: -2690073399117216931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_90
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 202
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248dc3127406b7344b401ccc0c68ad58
+      internalID: 5483962218699362331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_91
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 32
+        width: 201
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16562377c5746e74581cf9dfd4a2389f
+      internalID: -3950043124145298961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_92
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 31
+        width: 201
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23682a57cc76ffd4a93e8b3ba7cb6799
+      internalID: 504294494091988997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_93
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 31
+        width: 201
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f0b4cf4adc8442b53006d7918b10e
+      internalID: 5079509413552828591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_94
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 41
+        width: 201
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679c398a96ef1e64da00dbf2c3b4a564
+      internalID: 2751730235059660132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_95
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 44
+        width: 202
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d2964167b65784884c1c4c34ca6eaa
+      internalID: 2527964411871578253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_96
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 44
+        width: 202
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8b66d2516749448a18d9b16e6a644c
+      internalID: 3019254130197071522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_97
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 44
+        width: 178
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87117a1b334064981bf4fb3e39241d
+      internalID: -258379896449703488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_98
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 138
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f122efa3ffd8d24c99952cc8b0ced07
+      internalID: 3530965489121866603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_99
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 132
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e764b2f2367e2f449828e365a700c9e
+      internalID: 1314566889131426803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_100
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 129
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd49e27823255488f7aec9f4ab3bb7
+      internalID: -6392312511113910359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_101
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 117
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee605e563a9afe1449e9957fea9e078d
+      internalID: -438584336789142734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_102
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 117
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493d370d33352ed47988834557ae9dde
+      internalID: -5594614434041696849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_103
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 65
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa76feba28a2584a85b51a7278b3d9e
+      internalID: -200048539099462201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_104
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 64
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f6b959818392a4faa8f8073eaae51b
+      internalID: 6907330969255295297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_105
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 59
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84afacfe679ca044e85768f13a2ab662
+      internalID: -2257472882421695990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_106
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 65
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d2e8980330f4e4f83986ee970242c9
+      internalID: 5682892768919382323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_107
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 65
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a947fb06d8f174091c821ce8ba3fb8
+      internalID: -5381314178914590107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_108
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad0f17a0c9be214f9f8c5a9c2a8dd74
+      internalID: 1560273855427495524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_109
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a04a7dbf0d0da94cbe27dd9224a0ebf
+      internalID: 7318649059872775925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_110
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 60
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6026d67c1b94404489acaafbcd57fbf8
+      internalID: 1158439164957728933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_111
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 58
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb1d6d446017fb4f8dc4917b633877c
+      internalID: -4860407548081051463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_112
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 59
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19771cc6cfc318d48ba0849892aa248f
+      internalID: -8380740012070561563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_113
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 62
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b655906021e69c4c9d90d45f77fdfe8
+      internalID: 2590569422726881787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_001_Tile_8x8_256x256_114
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 60
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511def6b886153549b58ceaf566086a8
+      internalID: -5565924135620211576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 849c72421a3b403479a6475fd7f2ba0d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
