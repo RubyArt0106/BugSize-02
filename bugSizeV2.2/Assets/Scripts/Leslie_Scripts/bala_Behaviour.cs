@@ -9,7 +9,7 @@ public class bala_Behaviour : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {//Llama al script
         enemy_Life enemy = hitInfo.GetComponent<enemy_Life>();
-        if(enemy != null)
+        if (enemy != null)
         {
             enemy.TakeDamage(damage);
         }

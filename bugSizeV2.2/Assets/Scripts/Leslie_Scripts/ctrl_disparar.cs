@@ -62,16 +62,24 @@ public class ctrl_disparar : MonoBehaviour
     /*________Disparar_________*/
     void fireb2Kill(Vector2 direction, float rotationZ)
     {
-        GameObject b = Instantiate(bullet4Kill) as GameObject;
-        b.transform.position = bulletPoint.transform.position;
-        b.transform.rotation = Quaternion.Euler(0f, 0f, rotationZ);
-        b.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+        if (txt_kill_Mun.noMunicion > 0)
+        {
+            txt_kill_Mun.noMunicion -= 1;
+            GameObject b = Instantiate(bullet4Kill) as GameObject;
+            b.transform.position = bulletPoint.transform.position;
+            b.transform.rotation = Quaternion.Euler(0f, 0f, rotationZ);
+            b.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+        }
     }
     void fireb2Heal(Vector2 direction, float rotationZ)
     {
-        GameObject b = Instantiate(bullet4Cure) as GameObject;
-        b.transform.position = bulletPoint.transform.position;
-        b.transform.rotation = Quaternion.Euler(0f, 0f, rotationZ);
-        b.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+        if (txt_cura_Mun.noMunicion > 0)
+        {
+            txt_cura_Mun.noMunicion -= 1;
+            GameObject b = Instantiate(bullet4Cure) as GameObject;
+            b.transform.position = bulletPoint.transform.position;
+            b.transform.rotation = Quaternion.Euler(0f, 0f, rotationZ);
+            b.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+        }
     }/*________Disparar_________*/
 }

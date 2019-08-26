@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class player_Life : MonoBehaviour
 {
+    
     float timer = 0.5f;
     public int health;
     public int numHearths;
@@ -18,25 +20,27 @@ public class player_Life : MonoBehaviour
     {
         health -= damageGiven;
         Debug.LogWarning("Daño");
-        anim.SetBool("isDamage", true);
-        if (timer >= 0)
+        /*
+        if (timer > 0)
         {
+            anim.SetBool("isDamage", true);
             timer -= Time.deltaTime;
-            anim.SetBool("isDamage", false);
-            timer = 0.5f;
+            
         }
+        anim.SetBool("isDamage", false);
+        timer = 0.5f;*/
         if (health <= 0)
         {
-            Debug.LogWarning("Muerte");
-            //Muere();
+            Muere();
         }
 
     }
-    /*void Muere()
+    void Muere()
     {
-        Instantiate(effectMuerte, transform.position, Quaternion.identity); ;
-        Destroy(gameObject);
-    }*/
+        anim.SetBool("isDeath", true);
+        Debug.Log("Menu");
+        //SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+    }
 
     void Update()
     {
