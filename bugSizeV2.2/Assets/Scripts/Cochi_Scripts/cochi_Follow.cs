@@ -10,7 +10,7 @@ public class cochi_Follow : MonoBehaviour
     bool dentro;
     bool rolls;
 
-    public GameObject disCheck;
+    public Transform disCheck;
     private Transform target;
     private Animator anim;
     /*__________Start___________*/
@@ -57,7 +57,7 @@ public class cochi_Follow : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name.Equals("Player"))
+        if (disCheck == col.gameObject.tag.Equals("Player"))
         {
             dentro = true;
             rolls = false;
@@ -67,7 +67,7 @@ public class cochi_Follow : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.name.Equals("Player"))
+        if (disCheck == col.gameObject.tag.Equals("Player"))
         {
             if (anim.GetBool("isMoving"))
             {
