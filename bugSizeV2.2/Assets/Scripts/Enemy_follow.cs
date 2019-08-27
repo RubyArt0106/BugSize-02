@@ -7,6 +7,9 @@ public class Enemy_follow : MonoBehaviour
     public float speed;
     bool der = true;
     private Transform target;
+
+    
+
     /*__________Start___________*/
     void Start()
     {

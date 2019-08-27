@@ -1,6 +1,957 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E7B22440-C99B-431E-80F4-B003C04BB447}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{E7B22440-C99B-431E-80F4-B003C04BB447}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E7B22440-C99B-431E-80F4-B003C04BB447}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Insectos" ID="{F7B8D71D-B5C4-4711-8B96-DDF9C916DEA5}" ShortID="259518295">
+					<ChildrenList>
+						<Folder Name="Pulgon" ID="{5840D492-335D-4F6E-895F-BBD8C25F31C2}" ShortID="340811867">
+							<ChildrenList>
+								<Folder Name="AtaqueP" ID="{A1271B70-9BCA-4AA7-B887-898457E3A330}" ShortID="834084755">
+									<ChildrenList>
+										<RandomSequenceContainer Name="ExplosionP" ID="{49DEA491-C444-48BE-8247-DC6E491D3825}" ShortID="891674007">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="explosion-pulgon2" ID="{86BD83BE-9F60-4AD6-B590-C580B07D0296}" ShortID="955108086">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Pulgon" ID="{32081935-E7DB-431E-BF43-0CDE44E1421A}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="explosion-pulgon2" ID="{239681E2-3683-4687-8150-F8886188BD6F}" ShortID="672847902">
+															<Language>SFX</Language>
+															<AudioFile>explosion-pulgon2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="explosion-pulgon2" ID="{239681E2-3683-4687-8150-F8886188BD6F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="explosion-pulgon2_02" ID="{73594763-CC2E-4EA3-83DE-067E4D51B9EE}" ShortID="214293009">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>810</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Pulgon" ID="{32081935-E7DB-431E-BF43-0CDE44E1421A}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="explosion-pulgon2" ID="{259D6D7E-B643-479F-937A-BCDFFB42F123}" ShortID="270764388">
+															<Language>SFX</Language>
+															<AudioFile>explosion-pulgon2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="672847902"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="explosion-pulgon2" ID="{259D6D7E-B643-479F-937A-BCDFFB42F123}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="explosion-pulgon2_01" ID="{9D6125BE-4F95-435E-A066-9D96BF03AA1B}" ShortID="719739566">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-400</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Pulgon" ID="{32081935-E7DB-431E-BF43-0CDE44E1421A}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="explosion-pulgon2" ID="{83BA2A67-0095-48F3-B1BC-8E29157E338F}" ShortID="604049603">
+															<Language>SFX</Language>
+															<AudioFile>explosion-pulgon2.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="672847902"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="explosion-pulgon2" ID="{83BA2A67-0095-48F3-B1BC-8E29157E338F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="AtaqueP" ID="{BDDB782F-53A2-4342-94DA-0CA71620B80E}" ShortID="897545109">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="roar_02" ID="{4DF27D2E-ABAF-4143-8079-2CE130EB0117}" ShortID="104515997">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-330</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roar" ID="{7C72707F-930D-45A5-BE0D-2C771D8532E9}" ShortID="934172917">
+															<Language>SFX</Language>
+															<AudioFile>roar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="351008921"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roar" ID="{7C72707F-930D-45A5-BE0D-2C771D8532E9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="roar" ID="{018A42CD-66D3-48C2-9C0C-B588DAF5A63D}" ShortID="337831277">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roar" ID="{69F3F7A7-9EA2-468F-8320-713A54241CC8}" ShortID="3994002">
+															<Language>SFX</Language>
+															<AudioFile>roar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="351008921"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roar" ID="{69F3F7A7-9EA2-468F-8320-713A54241CC8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="roar_01" ID="{1F151E74-8825-4CFF-AFF3-D008171DBCCE}" ShortID="829301971">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>530</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roar" ID="{EA5D73D0-9EC3-496F-8221-1BE41FD533C2}" ShortID="977623765">
+															<Language>SFX</Language>
+															<AudioFile>roar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="351008921"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roar" ID="{EA5D73D0-9EC3-496F-8221-1BE41FD533C2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Curacion" ID="{60BC066C-B4FD-4712-A9B2-DBE51542E067}" ShortID="694968161">
+									<ChildrenList>
+										<Sound Name="CuracionP" ID="{F15C79F5-6DCE-41AA-9E6D-4B9E6F7F0839}" ShortID="536370753">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CuracionP" ID="{7976B33F-CAF5-4702-9380-CECF38EC2AA0}" ShortID="16338044">
+													<Language>SFX</Language>
+													<AudioFile>CuracionP.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CuracionP" ID="{7976B33F-CAF5-4702-9380-CECF38EC2AA0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="MuerteP" ID="{EF890B51-ACAC-487D-8222-FF6EFE18ED19}" ShortID="1065087593">
+									<ChildrenList>
+										<RandomSequenceContainer Name="MuerteP" ID="{22F1B5C9-DFF1-40AF-A3EA-CDF90A2DD363}" ShortID="457894236">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="muerte-pulgon" ID="{046A68ED-4320-4A19-B478-1717DC860350}" ShortID="1045398448">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-pulgon" ID="{84F97151-6718-4531-8EB7-25F35715ABE1}" ShortID="784317649">
+															<Language>SFX</Language>
+															<AudioFile>muerte-pulgon.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-pulgon" ID="{84F97151-6718-4531-8EB7-25F35715ABE1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="muerte-pulgon_01" ID="{D91ED028-1DA3-4C63-8E44-791FEF8FC59B}" ShortID="337000349">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>380</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-pulgon" ID="{A7138BA0-E7B9-4B43-AE93-A35222C3DC68}" ShortID="1040652389">
+															<Language>SFX</Language>
+															<AudioFile>muerte-pulgon.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="784317649"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-pulgon" ID="{A7138BA0-E7B9-4B43-AE93-A35222C3DC68}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="muerte-pulgon_02" ID="{4B5AF880-E18E-456E-8A02-9EE727B0F45D}" ShortID="873703027">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>860</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-pulgon" ID="{012E2D9B-E19D-4A71-822C-3F0364CCB7A1}" ShortID="66386606">
+															<Language>SFX</Language>
+															<AudioFile>muerte-pulgon.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="784317649"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-pulgon" ID="{012E2D9B-E19D-4A71-822C-3F0364CCB7A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Cochinilla" ID="{64C8CDE0-F07D-4DF5-8FCE-855F1E65F3C7}" ShortID="513568814">
+							<ChildrenList>
+								<Folder Name="AtaqueC" ID="{FD602B90-BBD9-4589-8E02-6E39B7D3BB5A}" ShortID="560488878">
+									<ChildrenList>
+										<RandomSequenceContainer Name="AtaqueC" ID="{2CD9E0FD-6022-4353-8784-20CAC2F3364E}" ShortID="877290516">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bzzz" ID="{FD6E1EB7-1A39-4108-B18C-CE538FF67C4D}" ShortID="729427810">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bzzz" ID="{83F72CFA-EBB1-464B-A351-72DEE770CDCC}" ShortID="954978806">
+															<Language>SFX</Language>
+															<AudioFile>Bzzz.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bzzz" ID="{83F72CFA-EBB1-464B-A351-72DEE770CDCC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bzzz2_wings-of-insects" ID="{8FC716F1-24A6-405D-9A5A-4F5B41CD8D35}" ShortID="962436246">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bzzz2_wings-of-insects" ID="{29680608-D0C7-4D55-B940-674B395D6892}" ShortID="124454994">
+															<Language>SFX</Language>
+															<AudioFile>Bzzz2_wings-of-insects.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bzzz2_wings-of-insects" ID="{29680608-D0C7-4D55-B940-674B395D6892}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bzzz_01" ID="{6AAFBFF8-1E29-41F2-A125-BE9EB86716A4}" ShortID="992316624">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-1720</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bzzz" ID="{390A9003-ABB6-421E-A0FB-398807B92135}" ShortID="365385552">
+															<Language>SFX</Language>
+															<AudioFile>Bzzz.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="954978806"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bzzz" ID="{390A9003-ABB6-421E-A0FB-398807B92135}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bzzz_02" ID="{AE0E0EA8-CB46-40F5-8650-E8293A151D2B}" ShortID="728857411">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>26</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>250</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bzzz" ID="{B9993DA6-4E07-495C-9764-A4FFC24A77C8}" ShortID="833795857">
+															<Language>SFX</Language>
+															<AudioFile>Bzzz.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="954978806"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bzzz" ID="{B9993DA6-4E07-495C-9764-A4FFC24A77C8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bzzz2_wings-of-insects_01" ID="{D358CD77-DCEF-4EF9-AD38-92DA5EA2EC23}" ShortID="458796981">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-400</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bzzz2_wings-of-insects" ID="{5D37B8D2-6424-46A7-A907-1DAFA21A96BA}" ShortID="246924804">
+															<Language>SFX</Language>
+															<AudioFile>Bzzz2_wings-of-insects.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="124454994"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bzzz2_wings-of-insects" ID="{5D37B8D2-6424-46A7-A907-1DAFA21A96BA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Bzzz2_wings-of-insects_02" ID="{AE76A996-1B37-4102-B3D4-7049C923193E}" ShortID="1006034557">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>250</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bzzz2_wings-of-insects" ID="{32C1C993-3C36-4FA2-9FB8-D267A570B45C}" ShortID="685051475">
+															<Language>SFX</Language>
+															<AudioFile>Bzzz2_wings-of-insects.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="124454994"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bzzz2_wings-of-insects" ID="{32C1C993-3C36-4FA2-9FB8-D267A570B45C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="MuerteC" ID="{73D5C1AE-8479-4E85-BB05-785E0D9ABF4C}" ShortID="313419353">
+									<ChildrenList>
+										<RandomSequenceContainer Name="MuerteC" ID="{E840D1B1-899E-4BA7-B0B1-56C06352B34A}" ShortID="707177435">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="muerte-cochi" ID="{B485953B-EF75-4C66-9AA1-637881C67369}" ShortID="350079211">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-cochi" ID="{950C4C50-1AFD-4F07-A660-DDAD417B23D8}" ShortID="336188403">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.507705246482154"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.507705246482154"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>muerte-cochi.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="461831793"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-cochi" ID="{950C4C50-1AFD-4F07-A660-DDAD417B23D8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="muerte-cochi_01" ID="{A835CBC0-4C78-47B1-BE91-E154163A0E9A}" ShortID="250760004">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>660</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-cochi" ID="{473110E4-0E83-4A1C-8675-76A59AFB76AA}" ShortID="1007002191">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.511280635541888"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.511280635541888"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>muerte-cochi.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-cochi" ID="{473110E4-0E83-4A1C-8675-76A59AFB76AA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="muerte-cochi_02" ID="{37429F6C-24DE-46CE-8469-8E6481EB7C4E}" ShortID="247516752">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-430</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-cochi" ID="{945A4C86-FEF9-4EC0-8A6D-B888EBDFC8C0}" ShortID="641547000">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.514856024601621"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.514856024601621"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>muerte-cochi.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-cochi" ID="{945A4C86-FEF9-4EC0-8A6D-B888EBDFC8C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Curacion" ID="{64B81953-980E-476B-B951-67006F4CD7ED}" ShortID="435792840">
+									<ChildrenList>
+										<Sound Name="CuracionC" ID="{FCA84841-EF8F-4C9A-9155-4A56EF7C7C4A}" ShortID="806131349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CuracionC" ID="{F5720EAE-0EC4-4572-8476-A85313D1BCE7}" ShortID="537321670">
+													<Language>SFX</Language>
+													<AudioFile>CuracionC.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CuracionC" ID="{F5720EAE-0EC4-4572-8476-A85313D1BCE7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Hormiga" ID="{64E572FC-B93F-4197-A29C-3AC483DDCDD2}" ShortID="575777411">
+							<ChildrenList>
+								<Folder Name="AtaqueH" ID="{FCB419BC-C271-40FD-AC89-0B4E1B94CB8B}" ShortID="855913577">
+									<ChildrenList>
+										<RandomSequenceContainer Name="AtaqueH" ID="{55C1B14F-782C-4D4F-84C8-00EEEC5F502B}" ShortID="340291729">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="roar" ID="{B15A6B8F-4E33-42E7-A700-1514660A4564}" ShortID="1048518272">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Hormiga" ID="{5DD1D37D-0C40-4A8F-90B4-786C0EEC655D}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roar" ID="{93B13217-5904-4F41-BB05-55D3BD595C3A}" ShortID="351008921">
+															<Language>SFX</Language>
+															<AudioFile>roar.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roar" ID="{93B13217-5904-4F41-BB05-55D3BD595C3A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="roar_01" ID="{69E2272D-93C5-4519-8530-D86C5A5B9329}" ShortID="255166350">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>530</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Hormiga" ID="{5DD1D37D-0C40-4A8F-90B4-786C0EEC655D}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roar" ID="{3293702C-AC73-4F78-A667-F52270598152}" ShortID="848842551">
+															<Language>SFX</Language>
+															<AudioFile>roar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="351008921"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roar" ID="{3293702C-AC73-4F78-A667-F52270598152}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="roar_02" ID="{B1F400E6-90FF-443D-B36E-1C08788F11DB}" ShortID="699079363">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-330</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Hormiga" ID="{5DD1D37D-0C40-4A8F-90B4-786C0EEC655D}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roar" ID="{CFCDD418-953F-4D5B-94D0-33025B19336C}" ShortID="730135154">
+															<Language>SFX</Language>
+															<AudioFile>roar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="351008921"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roar" ID="{CFCDD418-953F-4D5B-94D0-33025B19336C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="roarHormiga" ID="{D8494753-F6AF-4626-9D49-ED001F28DCEE}" ShortID="786976149">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Hormiga" ID="{5DD1D37D-0C40-4A8F-90B4-786C0EEC655D}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roarHormiga" ID="{F2D88C8E-ABA3-418F-A139-F88257800830}" ShortID="558997398">
+															<Language>SFX</Language>
+															<AudioFile>roarHormiga.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roarHormiga" ID="{F2D88C8E-ABA3-418F-A139-F88257800830}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="roarHormiga_01" ID="{703837CD-58C9-42BE-8D9E-69E6CA21AC70}" ShortID="756133958">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-250</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Hormiga" ID="{5DD1D37D-0C40-4A8F-90B4-786C0EEC655D}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roarHormiga" ID="{1F7769A6-F049-44E1-B888-EC52CC5C94FB}" ShortID="236094946">
+															<Language>SFX</Language>
+															<AudioFile>roarHormiga.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="558997398"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roarHormiga" ID="{1F7769A6-F049-44E1-B888-EC52CC5C94FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="roarHormiga_02" ID="{23D5AE3E-4145-476C-A4D0-B9030BD52FAD}" ShortID="74463639">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>580</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="Effect0" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+															<ObjectRef Name="Wwise_Guitar_Distortion_Hormiga" ID="{5DD1D37D-0C40-4A8F-90B4-786C0EEC655D}" WorkUnitID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="roarHormiga" ID="{4CF2FC3A-1E57-4927-A24E-DA5804B316D4}" ShortID="427507223">
+															<Language>SFX</Language>
+															<AudioFile>roarHormiga.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="558997398"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="roarHormiga" ID="{4CF2FC3A-1E57-4927-A24E-DA5804B316D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Curacion" ID="{EAD262D8-720B-4421-967A-349103F633E7}" ShortID="626398800">
+									<ChildrenList>
+										<Sound Name="CuracionH" ID="{B92A9776-07BB-47EF-9DF9-BB3938B8CF7A}" ShortID="212708147">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CuracionH" ID="{37E6AFFA-475D-407A-B7ED-A959A3880A7A}" ShortID="469597986">
+													<Language>SFX</Language>
+													<AudioFile>CuracionH.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CuracionH" ID="{37E6AFFA-475D-407A-B7ED-A959A3880A7A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="MuerteH" ID="{65F4BECD-4962-4CD7-8F47-36555D7320DD}" ShortID="547170079">
+									<ChildrenList>
+										<RandomSequenceContainer Name="MuerteH" ID="{23A3D847-0D91-4F81-BED2-D8D9CC294234}" ShortID="986106059">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="muerte-cochi" ID="{A5DD0122-29E5-485A-9CFC-11C88CEFA7CE}" ShortID="1000943408">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-cochi" ID="{3D40348F-27F2-4E1A-8DCE-2FF7886728D3}" ShortID="461831793">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.511280635541888"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.511280635541888"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>muerte-cochi.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1007002191"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-cochi" ID="{3D40348F-27F2-4E1A-8DCE-2FF7886728D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="muerte-cochi_01" ID="{63C448DD-D749-426E-AB3A-7936E0DC0BA1}" ShortID="612603334">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>660</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-cochi" ID="{192C43B6-8A4B-4EA8-99E7-84E2DE668262}" ShortID="785561563">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.507705246482155"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.507705246482155"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>muerte-cochi.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-cochi" ID="{192C43B6-8A4B-4EA8-99E7-84E2DE668262}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="muerte-cochi_02" ID="{290C9A44-8AB6-48E4-A88F-9D8724CD1F2F}" ShortID="434384632">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-430</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="muerte-cochi" ID="{E7BD7A91-44D8-4C78-82BC-1358925E2453}" ShortID="1064026910">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.511280635541888"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.511280635541888"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>muerte-cochi.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1007002191"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="muerte-cochi" ID="{E7BD7A91-44D8-4C78-82BC-1358925E2453}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

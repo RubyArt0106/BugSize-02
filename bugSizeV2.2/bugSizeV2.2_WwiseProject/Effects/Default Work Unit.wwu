@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}" SchemaVersion="94">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3F72C962-F960-418A-8F12-BBAA12E13FC1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Wwise_Guitar_Distortion_Hormiga" ID="{5DD1D37D-0C40-4A8F-90B4-786C0EEC655D}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionTone" Type="Real32" Value="67"/>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Wwise_Guitar_Distortion_Pulgon" ID="{32081935-E7DB-431E-BF43-0CDE44E1421A}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="61"/>
+						<Property Name="DistortionTone" Type="Real32" Value="27"/>
+						<Property Name="DistortionType" Type="int32" Value="1"/>
+						<Property Name="WetDryMix" Type="Real32" Value="53"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

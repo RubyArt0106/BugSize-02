@@ -7,6 +7,8 @@ public class enemy_Attack : MonoBehaviour
     public int damageGiven;
     public GameObject aCheck;
     private Animator anim;
+
+    public AkEvent AtaqueH;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -22,6 +24,7 @@ public class enemy_Attack : MonoBehaviour
                 Debug.Log("Attack_true");
                 anim.SetBool("isAttack", true);
                 player.TakeDamage(damageGiven);
+                Wwise_AtaqueH();
             }
         }
         
@@ -33,6 +36,14 @@ public class enemy_Attack : MonoBehaviour
         {
             Debug.Log("Attack_false");
             anim.SetBool("isAttack", false);
+        }
+    }
+
+    void Wwise_AtaqueH()
+    {
+        if(AtaqueH != null)
+        {
+            AtaqueH.HandleEvent(gameObject);
         }
     }
 }

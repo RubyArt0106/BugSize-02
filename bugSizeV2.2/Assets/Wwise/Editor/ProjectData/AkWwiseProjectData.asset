@@ -12,14 +12,238 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d2608714f6fc447aaf9dde77c8c3dc, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ee7684f54f9dae409a3425f844e7d7bb
+    GuidInternal: 
+    m_lastTime: -8586348010468989807
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 099fd01ba8f9cc45880d884ba1a1a830
+    GuidInternal: 
+    m_lastTime: -8586348010471108585
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3b04e9d25f169645bf9440ef62de63b9
+    GuidInternal: 
+    m_lastTime: -8586346681257176797
+    List:
+    - name: Nivel1
+      guid: 34fa9e605ab67d49a960d695785df22f
+      id: 409685056
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nivel1
+        ObjectType: 7
+      Path: Default Work Unit\Nivel1
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c24343ad26649b42b33fec0ef22b96c7
+    GuidInternal: 
+    m_lastTime: -8586346647160451275
+    List:
+    - name: Cochinilla_Ataque
+      guid: a7925f3542380b4496a2cc99dd34113c
+      id: 1234266875
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Cochinilla
+        ObjectType: 4
+      - ElementName: Cochinilla_Ataque
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque
+      maxAttenuation: 0
+      maxDuration: 1.549565
+      minDuration: 0.496614
+    - name: Cochinilla_Curacion
+      guid: 00a8421f18315a4ab8359f4bc1495505
+      id: 3411552904
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Cochinilla
+        ObjectType: 4
+      - ElementName: Cochinilla_Curacion
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Cochinilla\Cochinilla_Curacion
+      maxAttenuation: 0
+      maxDuration: 0.748958
+      minDuration: 0.748958
+    - name: Cochinilla_Muerte
+      guid: c79eb5bcc4edc448874e8d62d80a7f59
+      id: 1156980978
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Cochinilla
+        ObjectType: 4
+      - ElementName: Cochinilla_Muerte
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte
+      maxAttenuation: 0
+      maxDuration: 2.016717
+      minDuration: 1.07695
+    - name: Hormiga_Ataque
+      guid: 98adf818f7473d4391e9f63916a3a16c
+      id: 2716783014
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Hormiga
+        ObjectType: 4
+      - ElementName: Hormiga_Ataque
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Hormiga\Hormiga_Ataque
+      maxAttenuation: 0
+      maxDuration: 1.439257
+      minDuration: 0.614054
+    - name: Hormiga_Curacion
+      guid: c05034516f0fde42a12bc7d086df03ca
+      id: 4221681157
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Hormiga
+        ObjectType: 4
+      - ElementName: Hormiga_Curacion
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Hormiga\Hormiga_Curacion
+      maxAttenuation: 0
+      maxDuration: 0.748958
+      minDuration: 0.748958
+    - name: Hormiga_Muerte
+      guid: 82525f60e469984588da51686c9aa6cf
+      id: 679141459
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Hormiga
+        ObjectType: 4
+      - ElementName: Hormiga_Muerte
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Hormiga\Hormiga_Muerte
+      maxAttenuation: 0
+      maxDuration: 2.021301
+      minDuration: 1.079392
+    - name: Pulgon_Ataque
+      guid: ebca067ef619f14eb924a742824d132c
+      id: 990938024
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Pulgon
+        ObjectType: 4
+      - ElementName: Pulgon_Ataque
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Pulgon\Pulgon_Ataque
+      maxAttenuation: 0
+      maxDuration: 1.009124
+      minDuration: 0.614054
+    - name: Pulgon_Curacion
+      guid: 6ac6fccc798cf840b0f35e9714e024cb
+      id: 2750564619
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Pulgon
+        ObjectType: 4
+      - ElementName: Pulgon_Curacion
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Pulgon\Pulgon_Curacion
+      maxAttenuation: 0
+      maxDuration: 0.748958
+      minDuration: 0.748958
+    - name: Pulgon_Explosion
+      guid: b020fa766a0ed14a903781152fa01332
+      id: 3385608908
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Pulgon
+        ObjectType: 4
+      - ElementName: Pulgon_Explosion
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Pulgon\Pulgon_Explosion
+      maxAttenuation: 0
+      maxDuration: 1.363115
+      minDuration: 0.677632
+    - name: Pulgon_Muerte
+      guid: eeda8917c128d34783007a5b7dcd1467
+      id: 1857439233
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Pulgon
+        ObjectType: 4
+      - ElementName: Pulgon_Muerte
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Pulgon\Pulgon_Muerte
+      maxAttenuation: 0
+      maxDuration: 0.747063
+      minDuration: 0.454589
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cd00be24a2031143b3774bb67e51e989
+    GuidInternal: 
+    m_lastTime: -8586348010470858736
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 48e00cb43b34304fb8b8e9e80c4ec847
+    GuidInternal: 
+    m_lastTime: -8586348010473727072
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 62b73642996b364cb37615a4e06a9ff7
+    GuidInternal: 
+    m_lastTime: -8586348010469129719
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 77f42fdbd4eb90499e568ff9dc63bd3c
+    GuidInternal: 
+    m_lastTime: -8586348010473547196
+    List: []
+  ExpandedItems:
+  - /bugSizeV2.2_WwiseProject
+  - /bugSizeV2.2_WwiseProject/Events
+  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit
+  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Insectos
+  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Insectos/Pulgon
+  - /bugSizeV2.2_WwiseProject/SoundBanks
+  - /bugSizeV2.2_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -6,6 +6,12 @@ public class explosion_Pulgon : MonoBehaviour
 {
     public int damageGiven;
 
+    public AkEvent ExplosionP;
+
+    void Start()
+    {
+        Wwise_ExplosionP();
+    }
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.name.Equals("Player"))
@@ -26,4 +32,13 @@ public class explosion_Pulgon : MonoBehaviour
         }
 
     }
+
+    void Wwise_ExplosionP()
+    {
+        if (ExplosionP != null)
+        {
+            ExplosionP.HandleEvent(gameObject);
+        }
+    }
+
 }

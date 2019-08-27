@@ -9,6 +9,9 @@ public class pulgon_Attack : MonoBehaviour
     public Transform checkInside;
     public GameObject Explosion;
     private Animator anim;
+
+    public AkEvent AtaqueP;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -26,6 +29,8 @@ public class pulgon_Attack : MonoBehaviour
             anim.SetBool("isAtk", true);
             // spawn_Explosion();
 
+            Wwise_AtaqueP();
+
         }
 
     }
@@ -42,6 +47,15 @@ public class pulgon_Attack : MonoBehaviour
     void spawn_Explosion()
     {
         Instantiate(Explosion, transform.position, Quaternion.identity);
+    }
+
+
+    void Wwise_AtaqueP()
+    {
+        if(AtaqueP != null)
+        {
+            AtaqueP.HandleEvent(gameObject);
+        }
     }
 
 }

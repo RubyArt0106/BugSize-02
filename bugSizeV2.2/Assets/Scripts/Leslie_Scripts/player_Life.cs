@@ -39,7 +39,7 @@ public class player_Life : MonoBehaviour
     {
         anim.SetBool("isDeath", true);
         Debug.Log("Menu");
-        //SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
     }
 
     void Update()

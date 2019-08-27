@@ -13,6 +13,9 @@ public class cochi_Follow : MonoBehaviour
     public Transform disCheck;
     private Transform target;
     private Animator anim;
+
+    public AkEvent AtaqueC;
+
     /*__________Start___________*/
     void Start()
     {
@@ -63,6 +66,9 @@ public class cochi_Follow : MonoBehaviour
             rolls = false;
             anim.SetBool("isRolling", false);
             anim.SetBool("isMoving", true);
+
+            Wwise_AtaqueC();
+
         }
     }
     private void OnTriggerExit2D(Collider2D col)
@@ -78,6 +84,14 @@ public class cochi_Follow : MonoBehaviour
         }
     }
 
+
+    void Wwise_AtaqueC()
+    {
+        if(AtaqueC != null)
+        {
+            AtaqueC.HandleEvent(gameObject);
+        }
+    }
 
 
 

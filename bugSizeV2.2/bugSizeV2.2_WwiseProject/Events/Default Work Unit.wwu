@@ -1,6 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AD4343C2-6426-429B-B33F-EC0EF22B96C7}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{AD4343C2-6426-429B-B33F-EC0EF22B96C7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AD4343C2-6426-429B-B33F-EC0EF22B96C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Insectos" ID="{D48C01C2-5C63-4AEC-8294-01443C0D8585}" ShortID="286118500">
+					<ChildrenList>
+						<Folder Name="Cochinilla" ID="{FD4BF572-2E01-4B32-A682-D2A5496B118A}" ShortID="27157875">
+							<ChildrenList>
+								<Event Name="Cochinilla_Ataque" ID="{355F92A7-3842-440B-96A2-CC99DD34113C}">
+									<ChildrenList>
+										<Action Name="" ID="{90B23BF9-D393-4FE6-B095-3C5608B43930}" ShortID="914687230">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AtaqueC" ID="{2CD9E0FD-6022-4353-8784-20CAC2F3364E}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Cochinilla_Curacion" ID="{1F42A800-3118-4A5A-B835-9F4BC1495505}">
+									<ChildrenList>
+										<Action Name="" ID="{934FCA31-BA8E-41C1-865F-B110FE633ACE}" ShortID="718992983">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CuracionC" ID="{FCA84841-EF8F-4C9A-9155-4A56EF7C7C4A}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Cochinilla_Muerte" ID="{BCB59EC7-EDC4-48C4-874E-8D62D80A7F59}">
+									<ChildrenList>
+										<Action Name="" ID="{A10AF089-1C09-4FD5-8D75-7B6D75629F51}" ShortID="563099984">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MuerteC" ID="{E840D1B1-899E-4BA7-B0B1-56C06352B34A}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Hormiga" ID="{889A0672-06CA-4932-B63A-ABA09B971512}" ShortID="644459519">
+							<ChildrenList>
+								<Event Name="Hormiga_Ataque" ID="{18F8AD98-47F7-433D-91E9-F63916A3A16C}">
+									<ChildrenList>
+										<Action Name="" ID="{429AAE5C-D1D7-4BD8-8478-575DC22EBFB1}" ShortID="970370846">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AtaqueH" ID="{55C1B14F-782C-4D4F-84C8-00EEEC5F502B}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Hormiga_Curacion" ID="{513450C0-0F6F-42DE-A12B-C7D086DF03CA}">
+									<ChildrenList>
+										<Action Name="" ID="{938AB3D3-2FE8-400B-85B5-093EA9FFA914}" ShortID="1001314736">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CuracionH" ID="{B92A9776-07BB-47EF-9DF9-BB3938B8CF7A}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Hormiga_Muerte" ID="{605F5282-69E4-4598-88DA-51686C9AA6CF}">
+									<ChildrenList>
+										<Action Name="" ID="{24C23874-F191-4906-9676-CD5980AA0E62}" ShortID="225076669">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MuerteH" ID="{23A3D847-0D91-4F81-BED2-D8D9CC294234}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pulgon" ID="{E826F07F-EF6A-454E-A59E-F0FDB3FBBB1C}" ShortID="858765669">
+							<ChildrenList>
+								<Event Name="Pulgon_Ataque" ID="{7E06CAEB-19F6-4EF1-B924-A742824D132C}">
+									<ChildrenList>
+										<Action Name="" ID="{761DFF76-33CD-4E5A-85E9-28547FDBC138}" ShortID="494993307">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AtaqueP" ID="{BDDB782F-53A2-4342-94DA-0CA71620B80E}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pulgon_Curacion" ID="{CCFCC66A-8C79-40F8-B0F3-5E9714E024CB}">
+									<ChildrenList>
+										<Action Name="" ID="{DAC3C28A-6EC0-45DA-9D66-D06BCF4DC0A9}" ShortID="764020923">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CuracionP" ID="{F15C79F5-6DCE-41AA-9E6D-4B9E6F7F0839}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pulgon_Muerte" ID="{1789DAEE-28C1-47D3-8300-7A5B7DCD1467}">
+									<ChildrenList>
+										<Action Name="" ID="{07C7A01A-7D3D-45F8-886A-20C53B4BF803}" ShortID="660705647">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="MuerteP" ID="{22F1B5C9-DFF1-40AF-A3EA-CDF90A2DD363}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pulgon_Explosion" ID="{76FA20B0-0E6A-4AD1-9037-81152FA01332}">
+									<ChildrenList>
+										<Action Name="" ID="{6E65E9C9-DE8C-49EF-9050-7BB7011991A4}" ShortID="99227833">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ExplosionP" ID="{49DEA491-C444-48BE-8247-DC6E491D3825}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -13,6 +13,9 @@ public class enemy_Lifev2 : MonoBehaviour
     public GameObject effectCured;
     public GameObject effectMuerte;
 
+    public AkEvent MuerteC;
+    public AkEvent CuracionC;
+
     public void GitGud(int med)
     {
         infection -= med;
@@ -37,6 +40,7 @@ public class enemy_Lifev2 : MonoBehaviour
             Instantiate(cure_Mun, transform.position, Quaternion.identity);
         }
         Instantiate(effectCured, transform.position, Quaternion.identity);
+        Wwise_CuracionC();
         Destroy(gameObject);
     }
 
@@ -47,6 +51,24 @@ public class enemy_Lifev2 : MonoBehaviour
             Instantiate(kill_Mun, transform.position, Quaternion.identity);
         }
         Instantiate(effectMuerte, transform.position, Quaternion.identity);
+        Wwise_MuerteC();
         Destroy(gameObject);
     }
+
+    void Wwise_CuracionC()
+    {
+        if (CuracionC != null)
+        {
+            CuracionC.HandleEvent(gameObject);
+        }
+    }
+    void Wwise_MuerteC()
+    {
+        if(MuerteC != null)
+        {
+            MuerteC.HandleEvent(gameObject);
+        }
+    }
+
+
 }

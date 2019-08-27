@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="409685056" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Nivel1</ObjectPath>
+			<ShortName>Nivel1</ShortName>
+			<Path>Nivel1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1234266875" Name="Cochinilla_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque" DurationType="OneShot" DurationMin="0.496614" DurationMax="1.549565"/>
+				<Event Id="3411552904" Name="Cochinilla_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
+				<Event Id="1156980978" Name="Cochinilla_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte" DurationType="OneShot" DurationMin="1.076950" DurationMax="2.016717"/>
+				<Event Id="2716783014" Name="Hormiga_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Ataque" DurationType="OneShot" DurationMin="0.614054" DurationMax="1.439257"/>
+				<Event Id="4221681157" Name="Hormiga_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
+				<Event Id="679141459" Name="Hormiga_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Muerte" DurationType="OneShot" DurationMin="1.079392" DurationMax="2.021301"/>
+				<Event Id="990938024" Name="Pulgon_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Pulgon\Pulgon_Ataque" DurationType="OneShot" DurationMin="0.614054" DurationMax="1.009124"/>
+				<Event Id="2750564619" Name="Pulgon_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Pulgon\Pulgon_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
+				<Event Id="3385608908" Name="Pulgon_Explosion" ObjectPath="\Events\Default Work Unit\Insectos\Pulgon\Pulgon_Explosion" DurationType="OneShot" DurationMin="0.677632" DurationMax="1.363115"/>
+				<Event Id="1857439233" Name="Pulgon_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Pulgon\Pulgon_Muerte" DurationType="OneShot" DurationMin="0.454589" DurationMax="0.747063"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="16338044" Language="SFX">
+					<ShortName>CuracionP.wav</ShortName>
+					<Path>SFX\CuracionP_10C4C929.wem</Path>
+				</File>
+				<File Id="124454994" Language="SFX">
+					<ShortName>Bzzz2_wings-of-insects.wav</ShortName>
+					<Path>SFX\Bzzz2_wings-of-insects_10C4C929.wem</Path>
+				</File>
+				<File Id="351008921" Language="SFX">
+					<ShortName>roar.wav</ShortName>
+					<Path>SFX\roar_10C4C929.wem</Path>
+				</File>
+				<File Id="461831793" Language="SFX">
+					<ShortName>muerte-cochi.wav</ShortName>
+					<Path>SFX\muerte-cochi_4D4788FB.wem</Path>
+				</File>
+				<File Id="469597986" Language="SFX">
+					<ShortName>CuracionH.wav</ShortName>
+					<Path>SFX\CuracionH_10C4C929.wem</Path>
+				</File>
+				<File Id="537321670" Language="SFX">
+					<ShortName>CuracionC.wav</ShortName>
+					<Path>SFX\CuracionC_10C4C929.wem</Path>
+				</File>
+				<File Id="558997398" Language="SFX">
+					<ShortName>roarHormiga.wav</ShortName>
+					<Path>SFX\roarHormiga_10C4C929.wem</Path>
+				</File>
+				<File Id="641547000" Language="SFX">
+					<ShortName>muerte-cochi.wav</ShortName>
+					<Path>SFX\muerte-cochi_71DCD608.wem</Path>
+				</File>
+				<File Id="672847902" Language="SFX">
+					<ShortName>explosion-pulgon2.wav</ShortName>
+					<Path>SFX\explosion-pulgon2_10C4C929.wem</Path>
+				</File>
+				<File Id="784317649" Language="SFX">
+					<ShortName>muerte-pulgon.wav</ShortName>
+					<Path>SFX\muerte-pulgon_10C4C929.wem</Path>
+				</File>
+				<File Id="785561563" Language="SFX">
+					<ShortName>muerte-cochi.wav</ShortName>
+					<Path>SFX\muerte-cochi_6CB03E2A.wem</Path>
+				</File>
+				<File Id="954978806" Language="SFX">
+					<ShortName>Bzzz.wav</ShortName>
+					<Path>SFX\Bzzz_10C4C929.wem</Path>
+				</File>
+				<File Id="1007002191" Language="SFX">
+					<ShortName>muerte-cochi.wav</ShortName>
+					<Path>SFX\muerte-cochi_6ADE2D9D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
