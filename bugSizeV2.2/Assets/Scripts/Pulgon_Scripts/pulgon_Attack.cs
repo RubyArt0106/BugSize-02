@@ -5,9 +5,8 @@ using UnityEngine;
 public class pulgon_Attack : MonoBehaviour
 {
     public float distance;
-    public int damageGiven;
-    static bool inside = false;
-    public GameObject exp_Pos;
+    bool inside = false;
+    public Transform checkInside;
     public GameObject Explosion;
     private Animator anim;
     void Start()
@@ -17,57 +16,27 @@ public class pulgon_Attack : MonoBehaviour
 
     void Update()
     {
-        RaycastHit2D disLeft = Physics2D.Raycast(transform.position, Vector2.left, distance);
-
-        if(disLeft.collider != null)
-        {
-            //Debug.DrawLine(transform.position, disLeft.point, Color.red);
-            
-            inside = true;
-            Debug.Log("Insider "+inside);
-            anim.SetBool("isAtk", true);
-        }
-        else
-        {
-            inside = false;
-            Debug.Log("Out " + inside);
-            anim.SetBool("isAtk", false);
-        }
 
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (inside != false)
+        if (checkInside == col.gameObject.tag.Equals("Player"))
         {
-            if (Explosion == col.gameObject.name.Equals("Player"))
-            {
-                Debug.Log("player_DAMAGED");
-                spawn_Explosion();
-                /*
-                if (aCheck == col.gameObject.name.Equals("Player"))
-                {
-                    Debug.Log("player_Attaked");
-                    player_Life player = col.GetComponent<player_Life>();
-                    if (player != null)
-                    {
-                        Debug.Log("Attack_true");
-                        anim.SetBool("isAttack", true);
-                        player.TakeDamage(damageGiven);
-                    }
-                }**/
-            }
+            Debug.Log(" Inside = " + col.name);
+            anim.SetBool("isAtk", true);
+            // spawn_Explosion();
+
         }
 
     }
 
     private void OnTriggerExit2D(Collider2D col)
     {
-      /*  if (disCheck == col.gameObject.name.Equals("Player"))
+        if (checkInside == col.gameObject.name.Equals("Player"))
         {
-            inside = false;
-            Debug.Log("player_OUT"+ inside);
-            //anim.SetBool("isAttack", false);
-        }*/
+            Debug.Log(" Outside = " + col.name);
+            anim.SetBool("isAtk", false);
+        }
     }
 
     void spawn_Explosion()
