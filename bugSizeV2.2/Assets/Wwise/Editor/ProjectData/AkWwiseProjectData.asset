@@ -47,8 +47,22 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c24343ad26649b42b33fec0ef22b96c7
     GuidInternal: 
-    m_lastTime: -8586346647160451275
+    m_lastTime: -8586346379597308574
     List:
+    - name: BillieJean
+      guid: 753061bd8133724db3d69e6d6c6ef6a2
+      id: 3890941434
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Musica
+        ObjectType: 4
+      - ElementName: BillieJean
+        ObjectType: 3
+      Path: Default Work Unit\Musica\BillieJean
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Cochinilla_Ataque
       guid: a7925f3542380b4496a2cc99dd34113c
       id: 1234266875
@@ -241,8 +255,7 @@ MonoBehaviour:
   - /bugSizeV2.2_WwiseProject
   - /bugSizeV2.2_WwiseProject/Events
   - /bugSizeV2.2_WwiseProject/Events/Default Work Unit
-  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Insectos
-  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Insectos/Pulgon
+  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Musica
   - /bugSizeV2.2_WwiseProject/SoundBanks
   - /bugSizeV2.2_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1

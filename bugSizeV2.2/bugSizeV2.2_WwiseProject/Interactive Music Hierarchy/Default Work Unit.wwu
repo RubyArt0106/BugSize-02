@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C94D4942-9FB7-4B0A-84D4-F7D2A404364C}" SchemaVersion="94">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{C94D4942-9FB7-4B0A-84D4-F7D2A404364C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C94D4942-9FB7-4B0A-84D4-F7D2A404364C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MusicaMJ" ID="{DEC6A272-FDB6-4406-B8E5-1BD7B5DCE0ED}" ShortID="274050108">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="New Music Playlist Container" ID="{1E0F3417-8F38-4564-8E21-EF2BFEB65DE7}" ShortID="439872273">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140" ID="{056B7C70-5A86-4979-8086-312D2E46D2E2}" ShortID="29514617">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="293059.047619048"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140" ID="{F7BFAC4C-D178-42C7-B5F7-8A62FF70468E}" ShortID="938264584">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140" ID="{1BEB9692-19F4-4D07-BDD4-379EF30327B4}" ShortID="434530745">
+													<Language>SFX</Language>
+													<AudioFile>Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5C1916B3-6B15-45D0-8D0D-9E19B1E57636}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A17D686C-1979-4595-A9E7-EE89B399EDCC}">
+													<ClipList>
+														<MusicClip Name="Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140" ID="{B5385883-2C2B-4362-AE2F-BC8B521FF7C8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="293059.047619048"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140" ID="{1BEB9692-19F4-4D07-BDD4-379EF30327B4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{77A5B317-F1C6-427A-9DC9-340860DD67FD}"/>
+										<MusicCue Name="Exit Cue" ID="{F3C620A3-E0A7-42AE-9579-4FDE63F8AB1B}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="293059.047619048"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{259FFE69-5BF1-4DC0-B0E1-E0C366383D21}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{751C01DC-6DE0-4F35-B9DD-895F278D7714}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{1AE23D95-2D36-4BE6-87D5-38D7A69C192E}" ShortID="1032998652"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

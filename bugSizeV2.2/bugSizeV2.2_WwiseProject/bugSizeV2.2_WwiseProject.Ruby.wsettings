@@ -34,6 +34,8 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="NPqeYFq2fUmpYNaVeF3yLw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="mE7WzJ1XR0uHQoHlwpuCmwH/////////dTB8Yoq9ZE+3pgsMDtAD/QH/////////"/>
+				<Property Name="Interactive Music\x64_{056B7C70-5A86-4979-8086-312D2E46D2E2} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/rrxvXXzec/AAAAAAAA8D8AAAAAAAAAAAAAAAAAADJA"/>
+				<Property Name="Interactive Music\x64_{5FA15BC8-8151-4F0F-AD71-C736658223C6} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAQEtAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -44,6 +46,9 @@
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="7"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
+				<Property Name="Music Transition List\{1E0F3417-8F38-4564-8E21-EF2BFEB65DE7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{794A598B-9646-4F5A-BBCB-3BE3C7DC3262}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{F7BFAC4C-D178-42C7-B5F7-8A62FF70468E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
@@ -53,7 +58,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value="cqLG3rb9BkS45RvXtdzg7Rc0Dx44j2RFjiHvK/62XedCSU3Jt58KS4TU99KkBDZM"/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
@@ -64,8 +69,8 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="vBm0/HHC/UCsiQtOG5TLi/xy5WQ/uZdBopw6xIPdzdJAJLLnm8keQ4D0sAPAS7RH/eDZLCJgU0OHhCDKwvM2TpArYP3Zu4lFjgJuObfTu1od17j3xLURR4uW3fnJFt6lUQuJ76ysfUiCIv9u/hjtGZGk3klExL5IgkfcbkkdOCVwGyehypunSriHiYRX46MwsdFA6J6Jp0uwsVbAY1KzSuDNyGR98PVNj86FXx5l88euwdVzeYSFTrsFeF4Nmr9MktRAWF0zbk+JX7vYwl8xwg=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="wkNDrSZkm0KzP+wO8iuWx3/wJuhq705FpZ7w/bP7uxzCAYzUY1zsSoKUAUQ8DYWF"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="SuLurMCTyUGP/XmhA3au+MJDQ60mZJtCsz/sDvIrlsfCAYzUY1zsSoKUAUQ8DYWF"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="OwTp0l8WlkW/lEDvYt5juQ=="/>

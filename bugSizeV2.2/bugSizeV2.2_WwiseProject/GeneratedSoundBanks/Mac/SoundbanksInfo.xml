@@ -16,6 +16,7 @@
 			<ShortName>Nivel1</ShortName>
 			<Path>Nivel1.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3890941434" Name="BillieJean" ObjectPath="\Events\Default Work Unit\Musica\BillieJean" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1234266875" Name="Cochinilla_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque" DurationType="OneShot" DurationMin="0.496614" DurationMax="1.549565"/>
 				<Event Id="3411552904" Name="Cochinilla_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
 				<Event Id="1156980978" Name="Cochinilla_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte" DurationType="OneShot" DurationMin="1.076950" DurationMax="2.016717"/>
@@ -70,7 +71,7 @@
 				</File>
 				<File Id="785561563" Language="SFX">
 					<ShortName>muerte-cochi.wav</ShortName>
-					<Path>SFX\muerte-cochi_6CB03E2A.wem</Path>
+					<Path>SFX\muerte-cochi_F3F243CE.wem</Path>
 				</File>
 				<File Id="954978806" Language="SFX">
 					<ShortName>Bzzz.wav</ShortName>

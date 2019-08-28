@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BILLIEJEAN = 3890941434U;
         static const AkUniqueID COCHINILLA_ATAQUE = 1234266875U;
         static const AkUniqueID COCHINILLA_CURACION = 3411552904U;
         static const AkUniqueID COCHINILLA_MUERTE = 1156980978U;

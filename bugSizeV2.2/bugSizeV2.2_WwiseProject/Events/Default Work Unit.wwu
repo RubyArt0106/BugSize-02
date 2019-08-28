@@ -129,6 +129,11 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Musica" ID="{ACEEE24A-93C0-41C9-8FFD-79A10376AEF8}" ShortID="474077095">
+					<ChildrenList>
+						<Event Name="BillieJean" ID="{BD613075-3381-4D72-B3D6-9E6D6C6EF6A2}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
