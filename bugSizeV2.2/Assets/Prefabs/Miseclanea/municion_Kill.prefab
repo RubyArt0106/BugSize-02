@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2873735677182886387}
   - component: {fileID: 7571402070024787737}
   - component: {fileID: 4745522108991719931}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: municion_Kill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,5 +120,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kill: 1
-  numMun_Cure: 5
-  numMun_Kill: 5
+  numMun_Cure: 15
+  numMun_Kill: 20

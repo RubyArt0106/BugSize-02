@@ -15,25 +15,20 @@ public class player_Life : MonoBehaviour
     public Sprite voidHeart;
 
     private Animator anim;
-    //public GameObject effctMuerte;   <_Para el sprite de muerte
     public void TakeDamage(int damageGiven)
     {
         health -= damageGiven;
         Debug.LogWarning("Daño");
-        /*
-        if (timer > 0)
-        {
-            anim.SetBool("isDamage", true);
-            timer -= Time.deltaTime;
-            
-        }
-        anim.SetBool("isDamage", false);
-        timer = 0.5f;*/
+        
         if (health <= 0)
         {
             Muere();
         }
-
+    }
+    public void TakeCorazon(int corazonTaken)
+    {
+        health += corazonTaken;
+        Debug.LogWarning("Sanado");
     }
     void Muere()
     {

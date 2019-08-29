@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8479109717341942559}
   - component: {fileID: 6773939220017887462}
   - component: {fileID: 3093898161587383}
-  m_Layer: 14
+  m_Layer: 16
   m_Name: ant_Cured
   m_TagString: Curado
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e6875bf15e9ca4a8f67ad9a823b0a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 4
 --- !u!114 &3093898161587383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369fc9a2970ee4442947200621ca7198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 3
   kill_Mun: {fileID: 4627611071325392622, guid: 29bec9184066dbb4db55e2732b05949b,
     type: 3}
   effectMuerte: {fileID: 819966721418431210, guid: c028e46966915d948976d14ba3cc6d25,

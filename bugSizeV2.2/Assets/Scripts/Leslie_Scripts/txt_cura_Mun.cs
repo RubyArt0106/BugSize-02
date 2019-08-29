@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class txt_cura_Mun : MonoBehaviour
 {
     Text text;
-    public static int noMunicion = 20;
+    public static int noMunicion = 40;
     /*___________Start________*/
     void Start()
     {
