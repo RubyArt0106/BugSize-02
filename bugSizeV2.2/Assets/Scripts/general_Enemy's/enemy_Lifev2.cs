@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class enemy_Lifev2 : MonoBehaviour
 {
+    int numCure = 1;
+    int numKill = 1;
     public int health;
     public int infection;
     public bool mun = false;
@@ -35,6 +37,7 @@ public class enemy_Lifev2 : MonoBehaviour
 
     void Curado()
     {
+        txt_num_Cured.noCured += numCure;
         if (mun == true)
         {
             Instantiate(cure_Mun, transform.position, Quaternion.identity);
@@ -46,6 +49,7 @@ public class enemy_Lifev2 : MonoBehaviour
 
     void Muere()
     {
+        txt_num_Killed.noKilled += numKill;
         if (mun == true)
         {
             Instantiate(kill_Mun, transform.position, Quaternion.identity);

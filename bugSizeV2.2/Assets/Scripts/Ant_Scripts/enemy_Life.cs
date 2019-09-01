@@ -5,6 +5,8 @@ using Fungus;
 
 public class enemy_Life : MonoBehaviour
 {
+    int numCure = 1;
+    int numKill = 1;
     public int health;
     public int infection;
     public bool mun = false;
@@ -38,6 +40,7 @@ public class enemy_Life : MonoBehaviour
 
     void Curado()
     {
+        txt_num_Cured.noCured += numCure;
         if (tutorial)
         {
             MensajeCurar.gameObject.SetActive(true);
@@ -52,7 +55,8 @@ public class enemy_Life : MonoBehaviour
     }
     void Muere()
     {
-        if(tutorial)
+        txt_num_Killed.noKilled += numKill;
+        if (tutorial)
         {
             MensajeMatar.gameObject.SetActive(true);
         }

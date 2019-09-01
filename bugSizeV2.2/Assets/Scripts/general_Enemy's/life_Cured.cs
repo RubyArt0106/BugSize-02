@@ -9,6 +9,7 @@ public class life_Cured : MonoBehaviour
     public GameObject kill_Mun;
     public GameObject effectMuerte;
 
+    int numKill = 1;
     public void TakeDamage(int damage)
     {
         health -= damage;
@@ -20,6 +21,8 @@ public class life_Cured : MonoBehaviour
 
     void Muere()
     {
+        txt_num_Killed.noKilled += numKill;
+        txt_num_Cured.noCured -= numKill;
         Instantiate(kill_Mun, transform.position, Quaternion.identity);
         Instantiate(effectMuerte, transform.position, Quaternion.identity);
         Destroy(gameObject);
