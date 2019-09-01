@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class player_Life : MonoBehaviour
 {
     
-    float timer = 0.5f;
     public int health;
     public int numHearths;
 
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite voidHeart;
+    public Transform dmg;
 
     private Animator anim;
     public void TakeDamage(int damageGiven)
@@ -37,6 +37,19 @@ public class player_Life : MonoBehaviour
         SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(dmg == col.gameObject.tag.Equals("Enemy"))
+        {
+            //anim.SetBool("isDamage", true);
+            Debug.Log("NOMBRE: " + col.name);
+            Debug.Log("TAG: " + col.tag);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        anim.SetBool("isDamage", false);
+    }
     void Update()
     {
         int i;
