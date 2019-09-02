@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ARMAC = 897085897U;
+        static const AkUniqueID ARMAIMPACTO = 5892335U;
+        static const AkUniqueID ARMAM = 897085895U;
         static const AkUniqueID BILLIEJEAN = 3890941434U;
         static const AkUniqueID COCHINILLA_ATAQUE = 1234266875U;
         static const AkUniqueID COCHINILLA_CURACION = 3411552904U;
@@ -20,6 +23,8 @@ namespace AK
         static const AkUniqueID HORMIGA_ATAQUE = 2716783014U;
         static const AkUniqueID HORMIGA_CURACION = 4221681157U;
         static const AkUniqueID HORMIGA_MUERTE = 679141459U;
+        static const AkUniqueID PAIN = 1996139369U;
+        static const AkUniqueID PASOS = 3026462669U;
         static const AkUniqueID PULGON_ATAQUE = 990938024U;
         static const AkUniqueID PULGON_CURACION = 2750564619U;
         static const AkUniqueID PULGON_EXPLOSION = 3385608908U;

@@ -16,13 +16,18 @@
 			<ShortName>Nivel1</ShortName>
 			<Path>Nivel1.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3890941434" Name="BillieJean" ObjectPath="\Events\Default Work Unit\Musica\BillieJean" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="897085897" Name="ArmaC" ObjectPath="\Events\Default Work Unit\Leslie\Arma\ArmaC" DurationType="OneShot" DurationMin="0.318006" DurationMax="0.709787"/>
+				<Event Id="5892335" Name="ArmaImpacto" ObjectPath="\Events\Default Work Unit\Leslie\Arma\ArmaImpacto" DurationType="OneShot" DurationMin="0.216999" DurationMax="0.289660"/>
+				<Event Id="897085895" Name="ArmaM" ObjectPath="\Events\Default Work Unit\Leslie\Arma\ArmaM" DurationType="OneShot" DurationMin="1.695557" DurationMax="5.290581"/>
+				<Event Id="3890941434" Name="BillieJean" ObjectPath="\Events\Default Work Unit\Musica\BillieJean" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1234266875" Name="Cochinilla_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque" DurationType="OneShot" DurationMin="0.496614" DurationMax="1.549565"/>
 				<Event Id="3411552904" Name="Cochinilla_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
 				<Event Id="1156980978" Name="Cochinilla_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte" DurationType="OneShot" DurationMin="1.076950" DurationMax="2.016717"/>
 				<Event Id="2716783014" Name="Hormiga_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Ataque" DurationType="OneShot" DurationMin="0.614054" DurationMax="1.439257"/>
 				<Event Id="4221681157" Name="Hormiga_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
 				<Event Id="679141459" Name="Hormiga_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Muerte" DurationType="OneShot" DurationMin="1.079392" DurationMax="2.021301"/>
+				<Event Id="1996139369" Name="Pain" ObjectPath="\Events\Default Work Unit\Leslie\Pain" DurationType="OneShot" DurationMin="0.903172" DurationMax="1.144517"/>
+				<Event Id="3026462669" Name="Pasos" ObjectPath="\Events\Default Work Unit\Leslie\Pasos" DurationType="OneShot" DurationMin="0.260507" DurationMax="0.660873"/>
 				<Event Id="990938024" Name="Pulgon_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Pulgon\Pulgon_Ataque" DurationType="OneShot" DurationMin="0.614054" DurationMax="1.009124"/>
 				<Event Id="2750564619" Name="Pulgon_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Pulgon\Pulgon_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
 				<Event Id="3385608908" Name="Pulgon_Explosion" ObjectPath="\Events\Default Work Unit\Insectos\Pulgon\Pulgon_Explosion" DurationType="OneShot" DurationMin="0.677632" DurationMax="1.363115"/>
@@ -37,6 +42,22 @@
 					<ShortName>Bzzz2_wings-of-insects.wav</ShortName>
 					<Path>SFX\Bzzz2_wings-of-insects_10C4C929.wem</Path>
 				</File>
+				<File Id="156570205" Language="SFX">
+					<ShortName>01Paso.wav</ShortName>
+					<Path>SFX\01Paso_10C4C929.wem</Path>
+				</File>
+				<File Id="166538067" Language="SFX">
+					<ShortName>Impact.wav</ShortName>
+					<Path>SFX\Impact_10C4C929.wem</Path>
+				</File>
+				<File Id="232463739" Language="SFX">
+					<ShortName>01_Pain.wav</ShortName>
+					<Path>SFX\01_Pain_10C4C929.wem</Path>
+				</File>
+				<File Id="308907567" Language="SFX">
+					<ShortName>Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140.wav</ShortName>
+					<Path>SFX\Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140_D79FB2B7.wem</Path>
+				</File>
 				<File Id="351008921" Language="SFX">
 					<ShortName>roar.wav</ShortName>
 					<Path>SFX\roar_10C4C929.wem</Path>
@@ -49,9 +70,17 @@
 					<ShortName>CuracionH.wav</ShortName>
 					<Path>SFX\CuracionH_10C4C929.wem</Path>
 				</File>
+				<File Id="498804493" Language="SFX">
+					<ShortName>fire-shotCurar.wav</ShortName>
+					<Path>SFX\fire-shotCurar_10C4C929.wem</Path>
+				</File>
 				<File Id="537321670" Language="SFX">
 					<ShortName>CuracionC.wav</ShortName>
 					<Path>SFX\CuracionC_10C4C929.wem</Path>
+				</File>
+				<File Id="558361883" Language="SFX">
+					<ShortName>02Paso.wav</ShortName>
+					<Path>SFX\02Paso_10C4C929.wem</Path>
 				</File>
 				<File Id="558997398" Language="SFX">
 					<ShortName>roarHormiga.wav</ShortName>
@@ -64,6 +93,10 @@
 				<File Id="672847902" Language="SFX">
 					<ShortName>explosion-pulgon2.wav</ShortName>
 					<Path>SFX\explosion-pulgon2_10C4C929.wem</Path>
+				</File>
+				<File Id="711869736" Language="SFX">
+					<ShortName>fire-shotMatar.wav</ShortName>
+					<Path>SFX\fire-shotMatar_10C4C929.wem</Path>
 				</File>
 				<File Id="784317649" Language="SFX">
 					<ShortName>muerte-pulgon.wav</ShortName>

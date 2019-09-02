@@ -131,7 +131,80 @@
 				</Folder>
 				<Folder Name="Musica" ID="{ACEEE24A-93C0-41C9-8FFD-79A10376AEF8}" ShortID="474077095">
 					<ChildrenList>
-						<Event Name="BillieJean" ID="{BD613075-3381-4D72-B3D6-9E6D6C6EF6A2}"/>
+						<Event Name="BillieJean" ID="{FDE9CE4F-368B-4152-A44F-15E593F0301D}">
+							<ChildrenList>
+								<Action Name="" ID="{1300DBBB-3319-4AF5-98F5-1BD09915BCE1}" ShortID="621630218">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="New Music Playlist Container" ID="{20149DC4-D1A1-4ED1-B671-5F3231DAED9E}" WorkUnitID="{C94D4942-9FB7-4B0A-84D4-F7D2A404364C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Leslie" ID="{7FDCD592-BB40-4864-AE97-7D8742EE8610}" ShortID="495815011">
+					<ChildrenList>
+						<Event Name="Pasos" ID="{C0114866-45EA-4525-BC23-EF5B228F2BDD}">
+							<ChildrenList>
+								<Action Name="" ID="{583B4D84-A630-41E0-9FBB-A160150EC3B9}" ShortID="997433902">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PasosRandom" ID="{EC381029-BE00-4633-8484-A54600E6F999}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Arma" ID="{816541A2-9BF8-4750-A086-180FFB7D3B91}" ShortID="510109718">
+							<ChildrenList>
+								<Event Name="ArmaM" ID="{85AC3F72-4392-4D6F-A746-58CBCADDDB6B}">
+									<ChildrenList>
+										<Action Name="" ID="{62B08296-BCFE-486A-A0BE-B321AB0A69BA}" ShortID="643757633">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ArmaM" ID="{61AA2D1C-70BA-4551-AE5C-38F3369FA0C2}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ArmaC" ID="{451DAACC-8B65-4766-86B7-6882DD06D670}">
+									<ChildrenList>
+										<Action Name="" ID="{F6115F0D-309E-41BD-8EED-5776DB7AAB7D}" ShortID="158357938">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ArmaC" ID="{54986D21-17A5-4174-AA4A-4E6C17DA42AC}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ArmaImpacto" ID="{EF03D9BE-D483-42BF-AAF3-282532D72E08}">
+									<ChildrenList>
+										<Action Name="" ID="{601744BE-1578-406E-AF65-3BFE4DC597A2}" ShortID="990066232">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ArmaImpacto" ID="{E1B1C97C-7B83-4268-99D0-BD3018BBC027}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Pain" ID="{EF1E7C81-1BCC-41D3-B027-5768A34F6184}">
+							<ChildrenList>
+								<Action Name="" ID="{9AADDFCC-981A-4F6A-BC22-FB8B7B4E2A74}" ShortID="522067491">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pain" ID="{AD90BD42-0D9B-4F62-A96D-4E170E1A90CF}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

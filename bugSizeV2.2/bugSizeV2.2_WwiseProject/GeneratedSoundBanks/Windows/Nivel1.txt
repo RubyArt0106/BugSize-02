@@ -1,11 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
+	5892335	ArmaImpacto			\Default Work Unit\Leslie\Arma\ArmaImpacto	
 	679141459	Hormiga_Muerte			\Default Work Unit\Insectos\Hormiga\Hormiga_Muerte	
+	897085895	ArmaM			\Default Work Unit\Leslie\Arma\ArmaM	
+	897085897	ArmaC			\Default Work Unit\Leslie\Arma\ArmaC	
 	990938024	Pulgon_Ataque			\Default Work Unit\Insectos\Pulgon\Pulgon_Ataque	
 	1156980978	Cochinilla_Muerte			\Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte	
 	1234266875	Cochinilla_Ataque			\Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque	
 	1857439233	Pulgon_Muerte			\Default Work Unit\Insectos\Pulgon\Pulgon_Muerte	
+	1996139369	Pain			\Default Work Unit\Leslie\Pain	
 	2716783014	Hormiga_Ataque			\Default Work Unit\Insectos\Hormiga\Hormiga_Ataque	
 	2750564619	Pulgon_Curacion			\Default Work Unit\Insectos\Pulgon\Pulgon_Curacion	
+	3026462669	Pasos			\Default Work Unit\Leslie\Pasos	
 	3385608908	Pulgon_Explosion			\Default Work Unit\Insectos\Pulgon\Pulgon_Explosion	
 	3411552904	Cochinilla_Curacion			\Default Work Unit\Insectos\Cochinilla\Cochinilla_Curacion	
 	3890941434	BillieJean			\Default Work Unit\Musica\BillieJean	
@@ -14,13 +19,20 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16338044	CuracionP	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\CuracionP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Pulgon\Curacion\CuracionP		71964
 	124454994	Bzzz2_wings-of-insects	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\Bzzz2_wings-of-insects_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Cochinilla\AtaqueC\AtaqueC\Bzzz2_wings-of-insects		96282
+	156570205	01Paso	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\01Paso_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leslie\Pasos\PasosRandom\01Paso		33126
+	166538067	Impact_02	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leslie\Arma\ArmaImpacto\ArmaImpacto\Impact_02		45762
+	232463739	01_Pain	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\01_Pain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leslie\Pain\Pain\01_Pain		91042
+	308907567	Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Musica\New Music Playlist Container\New Music Segment\Billie_Jean_8_Bit_Remix_Cover_Version_Tribute_to_Michael_Jackson_-_8_Bit_Universe-youtube-lITrYOb0vjY-140		51695680
 	351008921	roar	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\roar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Hormiga\AtaqueH\AtaqueH\roar		147180
 	461831793	muerte-cochi	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\muerte-cochi_4D4788FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Cochinilla\MuerteC\MuerteC\muerte-cochi		278832
 	469597986	CuracionH	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\CuracionH_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Hormiga\Curacion\CuracionH		71964
+	498804493	fire-shotCurar	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\fire-shotCurar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leslie\Arma\ArmaC\ArmaC\fire-shotCurar		41606
 	537321670	CuracionC	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\CuracionC_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Cochinilla\Curacion\CuracionC		71964
+	558361883	02Paso	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\02Paso_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leslie\Pasos\PasosRandom\02Paso		46328
 	558997398	roarHormiga	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\roarHormiga_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Hormiga\AtaqueH\AtaqueH\roarHormiga		239244
 	641547000	muerte-cochi_02	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\muerte-cochi_71DCD608.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Cochinilla\MuerteC\MuerteC\muerte-cochi_02		277572
 	672847902	explosion-pulgon2	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\explosion-pulgon2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Pulgon\AtaqueP\ExplosionP\explosion-pulgon2		190912
+	711869736	fire-shotMatar	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\fire-shotMatar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leslie\Arma\ArmaM\ArmaM\fire-shotMatar		253030
 	784317649	muerte-pulgon	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\muerte-pulgon_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Pulgon\MuerteP\MuerteP\muerte-pulgon		143500
 	785561563	muerte-cochi_01	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\muerte-cochi_F3F243CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Hormiga\MuerteH\MuerteH\muerte-cochi_01		278832
 	954978806	Bzzz	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\Bzzz_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Cochinilla\AtaqueC\AtaqueC\Bzzz		101276

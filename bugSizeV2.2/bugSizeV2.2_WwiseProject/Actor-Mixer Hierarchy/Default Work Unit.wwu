@@ -951,6 +951,664 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Leslie" ID="{0FB17EA8-EF57-4277-8E2A-89E4005C5CBD}" ShortID="50801538">
+					<ChildrenList>
+						<Folder Name="Pasos" ID="{68420284-7F07-4AD5-872C-8A55C89A09D4}" ShortID="783185436">
+							<ChildrenList>
+								<RandomSequenceContainer Name="PasosRandom" ID="{EC381029-BE00-4633-8484-A54600E6F999}" ShortID="125223185">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="01Paso" ID="{E22C7CE2-D40A-46BB-B6DC-0093ED22D85F}" ShortID="936015505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01Paso" ID="{A48B4B8A-B704-4854-BCA6-B6BE0BAB4F8D}" ShortID="156570205">
+													<Language>SFX</Language>
+													<AudioFile>01Paso.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01Paso" ID="{A48B4B8A-B704-4854-BCA6-B6BE0BAB4F8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="02Paso" ID="{B3BAC583-FED7-433D-A2EC-0D526E81C156}" ShortID="52143614">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="02Paso" ID="{A3EA967D-14C3-429B-A5E2-8D1701B4115E}" ShortID="558361883">
+													<Language>SFX</Language>
+													<AudioFile>02Paso.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="02Paso" ID="{A3EA967D-14C3-429B-A5E2-8D1701B4115E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01Paso_01" ID="{9641421B-5614-4115-8D35-5963D7ED9587}" ShortID="682770757">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>630</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01Paso" ID="{FEBB9944-FD7F-494C-B954-CC715A50D95D}" ShortID="161360172">
+													<Language>SFX</Language>
+													<AudioFile>01Paso.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="156570205"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01Paso" ID="{FEBB9944-FD7F-494C-B954-CC715A50D95D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01Paso_02" ID="{5D0E433F-440C-4735-9BFF-0547E50DBF41}" ShortID="138911744">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-680</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01Paso" ID="{AB7D4EE5-6D7E-4793-9791-D8F3B777CF3B}" ShortID="643219823">
+													<Language>SFX</Language>
+													<AudioFile>01Paso.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="156570205"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01Paso" ID="{AB7D4EE5-6D7E-4793-9791-D8F3B777CF3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="02Paso_01" ID="{A0310BF4-92E6-4AA7-AAF8-538FEAF64336}" ShortID="546563772">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>530</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="02Paso" ID="{DABC7B1B-F9BB-4791-A36F-86FFF31872A9}" ShortID="309414120">
+													<Language>SFX</Language>
+													<AudioFile>02Paso.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="558361883"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="02Paso" ID="{DABC7B1B-F9BB-4791-A36F-86FFF31872A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="02Paso_02" ID="{AA5848D2-027E-42B3-8F5D-19EC66260186}" ShortID="436702540">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-400</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="02Paso" ID="{B68C9F09-87AD-467C-8645-401103F2E7C3}" ShortID="233991612">
+													<Language>SFX</Language>
+													<AudioFile>02Paso.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="558361883"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="02Paso" ID="{B68C9F09-87AD-467C-8645-401103F2E7C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Arma" ID="{61683063-FFB2-46F1-8B1B-A306DA8B76EE}" ShortID="919071642">
+							<ChildrenList>
+								<Folder Name="ArmaM" ID="{956BBC1D-58C9-4B5E-8E97-D2AAC42A7AB7}" ShortID="585232422">
+									<ChildrenList>
+										<RandomSequenceContainer Name="ArmaM" ID="{61AA2D1C-70BA-4551-AE5C-38F3369FA0C2}" ShortID="550170647">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="fire-shotMatar" ID="{099B5F85-CBD5-4112-A9E8-4F20D3714510}" ShortID="936606076">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotMatar" ID="{E451F428-28A1-43EE-924D-86A8E8ED837B}" ShortID="711869736">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotMatar.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotMatar" ID="{E451F428-28A1-43EE-924D-86A8E8ED837B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fire-shotMatar_01" ID="{1FF0854D-F283-4AA1-9FFC-8EAF6E7F51F7}" ShortID="265506658">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-1060</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotMatar" ID="{ABC0B763-4248-49A8-94FE-C21EC3AAC36C}" ShortID="864977262">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotMatar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="711869736"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotMatar" ID="{ABC0B763-4248-49A8-94FE-C21EC3AAC36C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fire-shotMatar_02" ID="{5687C47B-D3BC-4AD5-AAC1-E08541D1A81D}" ShortID="968841802">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>910</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotMatar" ID="{E06BF792-30A6-4C70-A73E-2E2C8A459E8B}" ShortID="206256909">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotMatar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="711869736"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotMatar" ID="{E06BF792-30A6-4C70-A73E-2E2C8A459E8B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fire-shotMatar_03" ID="{DACE2F10-3D5A-411F-A7FC-8111FDFC8BE0}" ShortID="636020643">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>44</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-660</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotMatar" ID="{42A5F635-136D-4CD7-8945-547C9D636E4C}" ShortID="329536213">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotMatar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="711869736"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotMatar" ID="{42A5F635-136D-4CD7-8945-547C9D636E4C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="ArmaC" ID="{ACAD8BC7-AC53-414C-9FCE-5353B95D1F8B}" ShortID="93187535">
+									<ChildrenList>
+										<RandomSequenceContainer Name="ArmaC" ID="{54986D21-17A5-4174-AA4A-4E6C17DA42AC}" ShortID="124004660">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="fire-shotCurar" ID="{E6CFABA5-8A9C-4BEF-AC3F-3B0BA29FEE80}" ShortID="815181025">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotCurar" ID="{FABDAF4D-5A97-4990-9627-FE1ED3F52E63}" ShortID="498804493">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotCurar.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotCurar" ID="{FABDAF4D-5A97-4990-9627-FE1ED3F52E63}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fire-shotCurar_01" ID="{1FA2B2A9-FB07-4B38-92AE-DBF51E277149}" ShortID="150991385">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-710</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotCurar" ID="{E1DD8526-1D99-4E80-8B63-1ABE2963B4E0}" ShortID="503232093">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotCurar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="498804493"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotCurar" ID="{E1DD8526-1D99-4E80-8B63-1ABE2963B4E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fire-shotCurar_02" ID="{B201AD50-7E19-4A88-8B37-A694AC161E3A}" ShortID="374577206">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>680</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotCurar" ID="{2AE1AE4F-AA93-4B28-A82A-A0B859365EAD}" ShortID="528587306">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotCurar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="498804493"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotCurar" ID="{2AE1AE4F-AA93-4B28-A82A-A0B859365EAD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="fire-shotCurar_03" ID="{F231B202-52FD-445D-88F4-5468314CFF19}" ShortID="97246110">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>40</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="fire-shotCurar" ID="{BE6DDCDA-DC22-40D7-B28F-20EEA76B1A7B}" ShortID="936179497">
+															<Language>SFX</Language>
+															<AudioFile>fire-shotCurar.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="498804493"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="fire-shotCurar" ID="{BE6DDCDA-DC22-40D7-B28F-20EEA76B1A7B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="ArmaImpacto" ID="{D6BACBE0-4F33-453D-BF86-39C5D24CEA4E}" ShortID="404610466">
+									<ChildrenList>
+										<RandomSequenceContainer Name="ArmaImpacto" ID="{E1B1C97C-7B83-4268-99D0-BD3018BBC027}" ShortID="17262174">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Impact_02" ID="{240A8F21-8200-4824-9268-C007C8CA64BF}" ShortID="189465027">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>87</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>860</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Impact" ID="{8BA1D51B-CBAF-40E9-89BE-C10BCD2F7E5A}" ShortID="706319395">
+															<Language>SFX</Language>
+															<AudioFile>Impact.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="166538067"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Impact" ID="{8BA1D51B-CBAF-40E9-89BE-C10BCD2F7E5A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Impact_01" ID="{D498FE85-67B3-4800-A019-1C9BEE699AD9}" ShortID="845747516">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>69</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>1360</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Impact" ID="{A8DDB6C9-15BB-4C48-889B-ED914261E273}" ShortID="960692535">
+															<Language>SFX</Language>
+															<AudioFile>Impact.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="166538067"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Impact" ID="{A8DDB6C9-15BB-4C48-889B-ED914261E273}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pain" ID="{D191B5B4-38DC-4FDB-A08A-D54FBCD18BFC}" ShortID="547786082">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Pain" ID="{AD90BD42-0D9B-4F62-A96D-4E170E1A90CF}" ShortID="4993631">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="01_Pain" ID="{04A5CC45-E0B5-4E78-BA7F-E41BB68D09C4}" ShortID="900401248">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>59</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>230</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_Pain" ID="{7E19ADD7-2F53-4522-9D21-281A5CEED1A0}" ShortID="232463739">
+													<Language>SFX</Language>
+													<AudioFile>01_Pain.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_Pain" ID="{7E19ADD7-2F53-4522-9D21-281A5CEED1A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_Pain_01" ID="{9224A7FC-427F-4D9A-AA88-003546930599}" ShortID="355311781">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>68</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-180</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_Pain" ID="{4F1CC4CF-3C3B-4D95-B5C6-08E6A431DF3B}" ShortID="462458649">
+													<Language>SFX</Language>
+													<AudioFile>01_Pain.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="232463739"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_Pain" ID="{4F1CC4CF-3C3B-4D95-B5C6-08E6A431DF3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_Pain_02" ID="{575F3377-946F-4514-B56A-AF7F5361A4A0}" ShortID="781073172">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>61</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-180</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BD09F09-F9A8-45CC-880D-884BA1A1A830}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_Pain" ID="{AF3B28AD-B8ED-43E8-9CCD-C6CD97F6F5D8}" ShortID="831035247">
+													<Language>SFX</Language>
+													<AudioFile>01_Pain.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="232463739"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_Pain" ID="{AF3B28AD-B8ED-43E8-9CCD-C6CD97F6F5D8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

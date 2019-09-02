@@ -47,10 +47,42 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c24343ad26649b42b33fec0ef22b96c7
     GuidInternal: 
-    m_lastTime: -8586346379597308574
+    m_lastTime: -8586342086962041942
     List:
+    - name: ArmaC
+      guid: ccaa1d45658b664786b76882dd06d670
+      id: 897085897
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Leslie
+        ObjectType: 4
+      - ElementName: Arma
+        ObjectType: 4
+      - ElementName: ArmaC
+        ObjectType: 3
+      Path: Default Work Unit\Leslie\Arma\ArmaC
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ArmaM
+      guid: 723fac8592436f4da74658cbcadddb6b
+      id: 897085895
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Leslie
+        ObjectType: 4
+      - ElementName: Arma
+        ObjectType: 4
+      - ElementName: ArmaM
+        ObjectType: 3
+      Path: Default Work Unit\Leslie\Arma\ArmaM
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: BillieJean
-      guid: 753061bd8133724db3d69e6d6c6ef6a2
+      guid: 4fcee9fd8b365241a44f15e593f0301d
       id: 3890941434
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -159,6 +191,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.021301
       minDuration: 1.079392
+    - name: Pasos
+      guid: 664811c0ea452545bc23ef5b228f2bdd
+      id: 3026462669
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Leslie
+        ObjectType: 4
+      - ElementName: Pasos
+        ObjectType: 3
+      Path: Default Work Unit\Leslie\Pasos
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Pulgon_Ataque
       guid: ebca067ef619f14eb924a742824d132c
       id: 990938024
@@ -256,7 +302,5 @@ MonoBehaviour:
   - /bugSizeV2.2_WwiseProject/Events
   - /bugSizeV2.2_WwiseProject/Events/Default Work Unit
   - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Musica
-  - /bugSizeV2.2_WwiseProject/SoundBanks
-  - /bugSizeV2.2_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
