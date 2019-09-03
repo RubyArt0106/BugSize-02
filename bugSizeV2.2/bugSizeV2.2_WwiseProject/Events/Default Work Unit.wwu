@@ -133,10 +133,10 @@
 					<ChildrenList>
 						<Event Name="BillieJean" ID="{FDE9CE4F-368B-4152-A44F-15E593F0301D}">
 							<ChildrenList>
-								<Action Name="" ID="{1300DBBB-3319-4AF5-98F5-1BD09915BCE1}" ShortID="621630218">
+								<Action Name="" ID="{8A347171-C41F-4984-8C82-CDF353D6DD90}" ShortID="998233116">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="New Music Playlist Container" ID="{20149DC4-D1A1-4ED1-B671-5F3231DAED9E}" WorkUnitID="{C94D4942-9FB7-4B0A-84D4-F7D2A404364C}"/>
+											<ObjectRef Name="New Music Segment" ID="{4E23A801-9A92-4291-9711-753BE856139C}" WorkUnitID="{C94D4942-9FB7-4B0A-84D4-F7D2A404364C}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

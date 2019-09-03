@@ -19,7 +19,7 @@
 				<Event Id="897085897" Name="ArmaC" ObjectPath="\Events\Default Work Unit\Leslie\Arma\ArmaC" DurationType="OneShot" DurationMin="0.318006" DurationMax="0.709787"/>
 				<Event Id="5892335" Name="ArmaImpacto" ObjectPath="\Events\Default Work Unit\Leslie\Arma\ArmaImpacto" DurationType="OneShot" DurationMin="0.216999" DurationMax="0.289660"/>
 				<Event Id="897085895" Name="ArmaM" ObjectPath="\Events\Default Work Unit\Leslie\Arma\ArmaM" DurationType="OneShot" DurationMin="1.695557" DurationMax="5.290581"/>
-				<Event Id="3890941434" Name="BillieJean" ObjectPath="\Events\Default Work Unit\Musica\BillieJean" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3890941434" Name="BillieJean" ObjectPath="\Events\Default Work Unit\Musica\BillieJean" DurationType="OneShot" DurationMin="293.059052" DurationMax="293.059052"/>
 				<Event Id="1234266875" Name="Cochinilla_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque" DurationType="OneShot" DurationMin="0.496614" DurationMax="1.549565"/>
 				<Event Id="3411552904" Name="Cochinilla_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
 				<Event Id="1156980978" Name="Cochinilla_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte" DurationType="OneShot" DurationMin="1.076950" DurationMax="2.016717"/>
