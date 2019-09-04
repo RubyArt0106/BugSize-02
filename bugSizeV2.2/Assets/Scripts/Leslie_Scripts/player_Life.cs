@@ -28,12 +28,10 @@ public class player_Life : MonoBehaviour
     public void TakeCorazon(int corazonTaken)
     {
         health += corazonTaken;
-        Debug.LogWarning("Sanado");
     }
     void Muere()
     {
         anim.SetBool("isDeath", true);
-        Debug.Log("Menu");
         SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
     }
 
@@ -42,8 +40,8 @@ public class player_Life : MonoBehaviour
         if(dmg == col.gameObject.tag.Equals("Enemy"))
         {
             //anim.SetBool("isDamage", true);
-            Debug.Log("NOMBRE: " + col.name);
-            Debug.Log("TAG: " + col.tag);
+           // Debug.Log("NOMBRE: " + col.name);
+            //Debug.Log("TAG: " + col.tag);
         }
     }
     private void OnTriggerExit2D(Collider2D col)

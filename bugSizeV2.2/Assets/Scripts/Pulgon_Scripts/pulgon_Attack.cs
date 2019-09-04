@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class pulgon_Attack : MonoBehaviour
 {
-    public float distance;
-    bool inside = false;
     public Transform checkInside;
     public GameObject Explosion;
     private Animator anim;

@@ -15,8 +15,10 @@ public class ant_Cured_Walk : MonoBehaviour
     }/*__________Start___________*/
     /*__________Update___________*/
     void Update()
-    {    //Sigue al jugador
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+    {
+        if (target != null) { 
+            //Sigue al jugador
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         //
         //Mira al Jugador
         var delta = target.position - transform.position;
@@ -30,5 +32,6 @@ public class ant_Cured_Walk : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
             der = false;
         }
+    }
     }
 }
