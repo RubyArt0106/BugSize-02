@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 10
-  speed: 0
+  speed: 4
 --- !u!114 &2223435325834699278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,7 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42c8d0f302d78f44cb72d529a963c474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 5
   checkInside: {fileID: 2223435326993182062}
   Explosion: {fileID: 8445251020206112798, guid: bb921d08dde82da4f971fe7b3981a221,
     type: 3}
@@ -197,14 +196,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ae61cb7abaa17248b74450cfe3c92f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 7
   infection: 5
   mun: 1
   cure_Mun: {fileID: 1650840744483418715, guid: f17dc46e8a9310345b451d346ea271b1,
     type: 3}
   kill_Mun: {fileID: 4627611071325392622, guid: 29bec9184066dbb4db55e2732b05949b,
     type: 3}
-  effectCured: {fileID: 6697177899627023134, guid: 8610157602b8eb24f943d1db09817b90,
+  effectCured: {fileID: 5491926480676229797, guid: 8610157602b8eb24f943d1db09817b90,
     type: 3}
   effectMuerte: {fileID: 819966721418431210, guid: c028e46966915d948976d14ba3cc6d25,
     type: 3}

@@ -18,7 +18,7 @@ public class player_Life : MonoBehaviour
     public void TakeDamage(int damageGiven)
     {
         health -= damageGiven;
-        Debug.LogWarning("Daño");
+       // Debug.LogWarning("Daño");
         
         if (health <= 0)
         {
@@ -32,7 +32,7 @@ public class player_Life : MonoBehaviour
     void Muere()
     {
         anim.SetBool("isDeath", true);
-        SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Menu");
     }
 
     private void OnTriggerEnter2D(Collider2D col)
