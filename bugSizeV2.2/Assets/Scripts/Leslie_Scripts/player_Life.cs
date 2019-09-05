@@ -5,21 +5,21 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class player_Life : MonoBehaviour
 {
-    
+    float aux;
+    float timer = 0.4f;
+    bool dmg;
     public int health;
     public int numHearths;
 
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite voidHeart;
-    public Transform dmg;
 
     private Animator anim;
     public void TakeDamage(int damageGiven)
     {
         health -= damageGiven;
-       // Debug.LogWarning("Daño");
-        
+        dmg = true;
         if (health <= 0)
         {
             Muere();
@@ -35,21 +35,20 @@ public class player_Life : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if(dmg == col.gameObject.tag.Equals("Enemy"))
-        {
-            //anim.SetBool("isDamage", true);
-           // Debug.Log("NOMBRE: " + col.name);
-            //Debug.Log("TAG: " + col.tag);
-        }
-    }
-    private void OnTriggerExit2D(Collider2D col)
-    {
-        anim.SetBool("isDamage", false);
-    }
     void Update()
     {
+        aux = 0.4f;
+        if(dmg == true)
+        {
+            anim.SetBool("isDamage", true);
+            timer -= Time.deltaTime;
+            if(timer <= 0f)
+            {
+                anim.SetBool("isDamage", false);
+                dmg = false;
+                timer = aux;
+            }
+        }
         int i;
         //Evita que tenga mas vida que los corazones
         if (health > numHearths)

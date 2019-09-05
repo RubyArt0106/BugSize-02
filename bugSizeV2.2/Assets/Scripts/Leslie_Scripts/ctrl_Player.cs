@@ -76,13 +76,4 @@ public class ctrl_Player : MonoBehaviour
     }/*________Update__________*/
 
 
-
-    /*
-    //Respawn, almenos para al testing hasta que ponga chekpoints
-   void OnBecameInvisible()
-    {
-        transform.position = new Vector3(0, 0, 0);    
-    }
-    
-    */
 }
