@@ -32660,7 +32660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 3589245035581763848}
+  selectedFlowchart: {fileID: 3589245035368793630}
 --- !u!4 &1583459715
 Transform:
   m_ObjectHideFlags: 1
@@ -34528,7 +34528,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Oh, as\xED ya no est\xE1n tan feos."
+  storyText: "En efecto, el componente verde los cura. Tras la administraci\xF3n de
+    la dosis, dejan de ser violentos y desagradables.\r\n\nS para continuar.\r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -34555,7 +34556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
+    x: 68
     y: 68
     width: 159
     height: 40
@@ -35002,8 +35003,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Creo que su mutaci\xF3n es mi culpa. Tal vez nunca deb\xED haber tirado
-    los qu\xEDmicos en el jard\xEDn. Ups..."
+  storyText: "La situaci\xF3n actual me deja dos opciones: terminar con el dolor de
+    los insectos ya sea mat\xE1ndolos o cur\xE1ndolos. Aqu\xED se define la clase
+    de cient\xEDfico que soy.\r\n\nS para continuar.\r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -35069,7 +35071,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\xA1Muere, nauseabunda monstruosidad!"
+  storyText: "La hip\xF3tesis es correcta: rojo = matar. Con esta sustancia, el qu\xEDmico
+    funciona correctamente como insecticida.\n\nS para continuar."
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -35208,7 +35211,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "Con este tama\xF1o, la dosis de insecticida tendr\xE1 que cambiar.\n"
+  storyText: "La prueba #59 ser\xE1 m\xE1s salvaje de lo que prev\xED; ahora mi vida
+    tambi\xE9n peligra.\r\n\nPresiona la tecla S para continuar\r.\n"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -35348,8 +35352,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\xBFQu\xE9 es esta cosa? Hum... Tal vez la pueda usar contra esos insectos
-    asquerosos."
+  storyText: "En conjunto con el compuesto qu\xEDmico del insecticida, es posible
+    usar la sustancia roja para matar a los insectos.\r\n\nPresiona la tecla S para
+    continuar. \r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -35582,7 +35587,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "!Ay, este gusano es enorme! \n\xBFQu\xE9 hago?, \xBFlo mato o lo salvo?"
+  storyText: "\xA1Vaya!, no s\xF3lo he infectado a los insectos; esta lagartija topo
+    es enorme. Dado su estado de infecci\xF3n no s\xE9 si sea posible curarla o mejor
+    deba matarla.\r\n\nS para continuar.\r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -35804,7 +35811,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Tal vez sea posible enmendar mi error y salvarlos a todos.
+  storyText: "Tal vez sea posible enmendar mi error y salvarlos a todos.\r\n\nS para
+    continuar.\r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -36121,7 +36129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\xA1Ja!, muerto."
+  storyText: "La criatura deb\xEDa morir.\r\n\nS para continuar.\r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -36227,7 +36235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 1
+  clickMode: 3
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -36573,7 +36581,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: "Los insectos est\xE1n m\xE1s contaminados de lo que pens\xE9."
+  storyText: "Nota: las pruebas anteriores afectaron notoriamente a los insectos;
+    el grado de alteraci\xF3n es elevado. Observo dolor f\xEDsico en las criaturas.\r\n\nPresiona
+    la tecla S para continuar. \r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -36634,7 +36644,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 3589245035581763851}
   selectedCommands:
   - {fileID: 3589245035581763845}
   variables:
@@ -36758,7 +36769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\xBFPor qu\xE9 esta cosa es de otro color?"
+  storyText: "Quiz\xE1 la sustancia verde reaccione de manera diferente al contacto
+    con los insectos.\r\n\nS para continuar.\r"
   description: 
   character: {fileID: 3589245035623589944}
   portrait: {fileID: 21300000, guid: 275181bb428cf3346a4c9509fa9884df, type: 3}
@@ -36969,4 +36981,4 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
