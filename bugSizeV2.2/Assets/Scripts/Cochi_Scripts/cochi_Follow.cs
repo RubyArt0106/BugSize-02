@@ -47,7 +47,7 @@ public class cochi_Follow : MonoBehaviour
     private void FixedUpdate()
     {
         
-        if (dentro== true && rolls == false)
+        if (/*dentro== true && */rolls == false)
         {//Camina
             anim.SetBool("isMoving", true);
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);

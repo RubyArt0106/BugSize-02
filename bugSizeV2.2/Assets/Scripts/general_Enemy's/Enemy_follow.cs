@@ -18,9 +18,10 @@ public class Enemy_follow : MonoBehaviour
     }/*__________Start___________*/
     /*__________Update___________*/
     void Update()
-    {    //Sigue al jugador
-        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        //
+    {
+        //Sigue al jugador
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            //
         //Mira al Jugador
         var delta = target.position - transform.position;
         if (delta.x >= 0 && !der)

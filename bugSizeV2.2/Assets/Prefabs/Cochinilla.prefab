@@ -183,8 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1c8cd1c803d374a903c9b6db3f4980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  rollspeed: 3
+  speed: 4
+  rollspeed: 2
   disCheck: {fileID: 7750234297282440885}
   AtaqueC: {fileID: 7750234297392396085}
 --- !u!114 &7750234295576841314
@@ -199,14 +199,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ae61cb7abaa17248b74450cfe3c92f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  infection: 5
+  health: 6
+  infection: 4
   mun: 1
   cure_Mun: {fileID: 1650840744483418715, guid: f17dc46e8a9310345b451d346ea271b1,
     type: 3}
   kill_Mun: {fileID: 4627611071325392622, guid: 29bec9184066dbb4db55e2732b05949b,
     type: 3}
-  effectCured: {fileID: 5315401854210530350, guid: 05020f1e5ce4e91468156e58a7e5ee4c,
+  effectCured: {fileID: 4368907338714653567, guid: 05020f1e5ce4e91468156e58a7e5ee4c,
     type: 3}
   effectMuerte: {fileID: 819966721418431210, guid: c028e46966915d948976d14ba3cc6d25,
     type: 3}
@@ -228,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7750234296238999724
 Transform:
   m_ObjectHideFlags: 0
@@ -640,8 +640,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.0478871, y: 0.31888196}
-  m_Size: {x: 2.595756, y: 8.608199}
+  m_Offset: {x: 1.0478902, y: 5.7418947}
+  m_Size: {x: 2.5957472, y: 19.645418}
   m_Direction: 0
 --- !u!1 &7750234297392396080
 GameObject:
