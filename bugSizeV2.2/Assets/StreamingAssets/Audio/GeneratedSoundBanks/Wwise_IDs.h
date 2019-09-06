@@ -29,6 +29,7 @@ namespace AK
         static const AkUniqueID PULGON_CURACION = 2750564619U;
         static const AkUniqueID PULGON_EXPLOSION = 3385608908U;
         static const AkUniqueID PULGON_MUERTE = 1857439233U;
+        static const AkUniqueID TEMABS = 2253375519U;
     } // namespace EVENTS
 
     namespace BANKS

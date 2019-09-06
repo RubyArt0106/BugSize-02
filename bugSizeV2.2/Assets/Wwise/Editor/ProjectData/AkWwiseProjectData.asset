@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c24343ad26649b42b33fec0ef22b96c7
     GuidInternal: 
-    m_lastTime: -8586342086962041942
+    m_lastTime: -8586338654996926564
     List:
     - name: ArmaC
       guid: ccaa1d45658b664786b76882dd06d670
@@ -63,8 +63,24 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Leslie\Arma\ArmaC
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.709787
+      minDuration: 0.318006
+    - name: ArmaImpacto
+      guid: bed903ef83d4bf42aaf3282532d72e08
+      id: 5892335
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Leslie
+        ObjectType: 4
+      - ElementName: Arma
+        ObjectType: 4
+      - ElementName: ArmaImpacto
+        ObjectType: 3
+      Path: Default Work Unit\Leslie\Arma\ArmaImpacto
+      maxAttenuation: 0
+      maxDuration: 0.28966
+      minDuration: 0.216999
     - name: ArmaM
       guid: 723fac8592436f4da74658cbcadddb6b
       id: 897085895
@@ -79,8 +95,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Leslie\Arma\ArmaM
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 5.290581
+      minDuration: 1.695557
     - name: BillieJean
       guid: 4fcee9fd8b365241a44f15e593f0301d
       id: 3890941434
@@ -93,8 +109,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Musica\BillieJean
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 293.05905
+      minDuration: 293.05905
     - name: Cochinilla_Ataque
       guid: a7925f3542380b4496a2cc99dd34113c
       id: 1234266875
@@ -191,6 +207,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.021301
       minDuration: 1.079392
+    - name: Pain
+      guid: 817c1eefcc1bd341b0275768a34f6184
+      id: 1996139369
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Leslie
+        ObjectType: 4
+      - ElementName: Pain
+        ObjectType: 3
+      Path: Default Work Unit\Leslie\Pain
+      maxAttenuation: 0
+      maxDuration: 1.144517
+      minDuration: 0.903172
     - name: Pasos
       guid: 664811c0ea452545bc23ef5b228f2bdd
       id: 3026462669
@@ -203,8 +233,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Leslie\Pasos
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.660873
+      minDuration: 0.260507
     - name: Pulgon_Ataque
       guid: ebca067ef619f14eb924a742824d132c
       id: 990938024
@@ -269,6 +299,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.747063
       minDuration: 0.454589
+    - name: TemaBS
+      guid: 6457562f0aca4f4a9f6cf59beee67ddd
+      id: 2253375519
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Musica
+        ObjectType: 4
+      - ElementName: TemaBS
+        ObjectType: 3
+      Path: Default Work Unit\Musica\TemaBS
+      maxAttenuation: 0
+      maxDuration: 212.53226
+      minDuration: 212.53226
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 

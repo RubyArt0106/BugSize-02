@@ -956,6 +956,13 @@
 						<Folder Name="Pasos" ID="{68420284-7F07-4AD5-872C-8A55C89A09D4}" ShortID="783185436">
 							<ChildrenList>
 								<RandomSequenceContainer Name="PasosRandom" ID="{EC381029-BE00-4633-8484-A54600E6F999}" ShortID="125223185">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
@@ -1128,6 +1135,13 @@
 								<Folder Name="ArmaM" ID="{956BBC1D-58C9-4B5E-8E97-D2AAC42A7AB7}" ShortID="585232422">
 									<ChildrenList>
 										<RandomSequenceContainer Name="ArmaM" ID="{61AA2D1C-70BA-4551-AE5C-38F3369FA0C2}" ShortID="550170647">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>
@@ -1480,6 +1494,13 @@
 						<Folder Name="Pain" ID="{D191B5B4-38DC-4FDB-A08A-D54FBCD18BFC}" ShortID="547786082">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Pain" ID="{AD90BD42-0D9B-4F62-A96D-4E170E1A90CF}" ShortID="4993631">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>

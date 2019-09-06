@@ -142,6 +142,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="TemaBS" ID="{2F565764-CA0A-4A4F-9F6C-F59BEEE67DDD}">
+							<ChildrenList>
+								<Action Name="" ID="{3F9432A9-BD0B-440C-B5BC-4D4668CFF17D}" ShortID="278527477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TemaBS_Music Segment" ID="{379DABFE-3529-4D68-8D7F-A7403E455E29}" WorkUnitID="{C94D4942-9FB7-4B0A-84D4-F7D2A404364C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Leslie" ID="{7FDCD592-BB40-4864-AE97-7D8742EE8610}" ShortID="495815011">
