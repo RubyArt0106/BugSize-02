@@ -133,3 +133,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   impacto: {fileID: 819966721418431210, guid: c028e46966915d948976d14ba3cc6d25, type: 3}
+  ImpactoBala: {fileID: 0}

@@ -1138,7 +1138,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>-14</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1269,6 +1269,13 @@
 								<Folder Name="ArmaC" ID="{ACAD8BC7-AC53-414C-9FCE-5353B95D1F8B}" ShortID="93187535">
 									<ChildrenList>
 										<RandomSequenceContainer Name="ArmaC" ID="{54986D21-17A5-4174-AA4A-4E6C17DA42AC}" ShortID="124004660">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0F4547D2-F21A-4783-8632-F2C2C6605A66}"/>

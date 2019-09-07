@@ -16,6 +16,13 @@ public class ctrl_disparar : MonoBehaviour
     public GameObject bullet4Kill;
     public float bulletSpeed;
     public float iniTempoEntreDisparo;
+
+
+    //wwise 
+
+    public AkEvent DispararM;
+    public AkEvent DispararC;
+
     /*___________Start________*/
     void Start()
     {
@@ -42,6 +49,9 @@ public class ctrl_disparar : MonoBehaviour
                 direction.Normalize();
                 fireb2Kill(direction, rotationZ);
                 tempoEntreDisparo = iniTempoEntreDisparo;
+
+                Wwise_DispararM();
+
             }
             
         }
@@ -55,6 +65,9 @@ public class ctrl_disparar : MonoBehaviour
             Vector2 direction = difference / distance;
             direction.Normalize();
             fireb2Heal(direction, rotationZ);
+
+            Wwise_DispararC();
+
         }
 
     }/*_______Update___________*/
@@ -82,4 +95,24 @@ public class ctrl_disparar : MonoBehaviour
             b.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
         }
     }/*________Disparar_________*/
+
+    // Audio Disparar matar
+    void Wwise_DispararM()
+    {
+        if (DispararM != null)
+        {
+            DispararM.HandleEvent(gameObject);
+        }
+    }
+
+    // Audio Disparar Curar
+    void Wwise_DispararC()
+    {
+        if (DispararC != null)
+        {
+            DispararC.HandleEvent(gameObject);
+        }
+    }
+
 }
+

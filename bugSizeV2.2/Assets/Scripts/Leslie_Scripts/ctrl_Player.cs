@@ -12,6 +12,7 @@ public class ctrl_Player : MonoBehaviour
     public Transform feetPos;
     public LayerMask isStage;
 
+
     private float moveInput;
     private float jumpCont;
     private bool isGrounded;
@@ -20,6 +21,23 @@ public class ctrl_Player : MonoBehaviour
 
     private Rigidbody2D rigid2;
     private Animator anim;
+
+    bool aux;
+
+
+   /*public void isGround()
+    {
+        if (aux == true)
+        {
+            //sonido pasos
+            Wwise_Pasos();
+        }
+    } */
+
+    //variables de wwise
+
+    public AkEvent Pasos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,13 +51,26 @@ public class ctrl_Player : MonoBehaviour
         moveInput = Input.GetAxisRaw("Horizontal");
         rigid2.velocity = new Vector2(moveInput * speed, rigid2.velocity.y);
     }/*________Fixed_Update_____*/
+
+
+ 
+
+
     /*________Update__________*/
     void Update()
-    {    //Llama los valores del animator
+    {
+        Smash();
+
+        //Llama los valores del animator
         anim.SetFloat("Speed", Mathf.Abs(rigid2.velocity.x));
         anim.SetBool("Grounded", isGrounded);
-       //Salto sensible
-        isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, isStage);
+
+        
+       
+    
+
+    //Salto sensible
+    isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, isStage);
         if(isGrounded == true && Input.GetKeyDown(KeyCode.W))
         {
             isJumping = true;
@@ -56,11 +87,17 @@ public class ctrl_Player : MonoBehaviour
             else
             {
                 isJumping = false;
+
+                //----
+                //Wwise_Pasos();     para saltar
             }
         }
         if (Input.GetKeyUp(KeyCode.W))
         {
             isJumping = false;
+
+            //-----
+            //Wwise_Pasos();
         }
         //Mira Mouse
         var delta = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
@@ -75,5 +112,22 @@ public class ctrl_Player : MonoBehaviour
         }
     }/*________Update__________*/
 
+    public void Smash()
+    {
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        {
+            //-----
+            Wwise_Pasos(); 
+        }
+    }
+
+
+    void Wwise_Pasos()
+    {
+        if (Pasos != null)
+        {
+            Pasos.HandleEvent(gameObject);
+        }
+    }
 
 }

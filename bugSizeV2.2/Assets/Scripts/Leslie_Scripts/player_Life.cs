@@ -15,9 +15,16 @@ public class player_Life : MonoBehaviour
     public Sprite fullHeart;
     public Sprite voidHeart;
 
+    // variable Wwise
+    public AkEvent DañoLeslie;
+
     private Animator anim;
     public void TakeDamage(int damageGiven)
     {
+
+        // funcion de Wwise impacto de bala
+        Wwise_DañoLeslie();
+
         health -= damageGiven;
         dmg = true;
         if (health <= 0)
@@ -80,4 +87,13 @@ public class player_Life : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
+
+    void Wwise_DañoLeslie()
+    {
+        if (DañoLeslie != null)
+        {
+            DañoLeslie.HandleEvent(gameObject);
+        }
+    }
+
 }

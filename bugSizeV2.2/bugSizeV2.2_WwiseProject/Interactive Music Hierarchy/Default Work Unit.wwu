@@ -142,7 +142,11 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{36574A13-47D3-4D52-8A1B-848B10918475}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
