@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636e75cd569408f48ab56adca6241e40, type: 3}
+  m_Name: 97658D2B-4611-4EA6-8A17-EE8CF423FEC7
+  m_EditorClassIdentifier: 
+  objectName: GusanoRoar
+  id: 929793656
+  guid: 97658D2B-4611-4EA6-8A17-EE8CF423FEC7

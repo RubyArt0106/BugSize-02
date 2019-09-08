@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c24343ad26649b42b33fec0ef22b96c7
     GuidInternal: 
-    m_lastTime: -8586338654996926564
+    m_lastTime: -8586336980746162500
     List:
     - name: ArmaC
       guid: ccaa1d45658b664786b76882dd06d670
@@ -159,6 +159,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.016717
       minDuration: 1.07695
+    - name: GusanoRoar
+      guid: 2b8d65971146a64e8a17ee8cf423fec7
+      id: 929793656
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Insectos
+        ObjectType: 4
+      - ElementName: Gusano
+        ObjectType: 4
+      - ElementName: GusanoRoar
+        ObjectType: 3
+      Path: Default Work Unit\Insectos\Gusano\GusanoRoar
+      maxAttenuation: 0
+      maxDuration: 2.859352
+      minDuration: 2.859352
     - name: Hormiga_Ataque
       guid: 98adf818f7473d4391e9f63916a3a16c
       id: 2716783014
@@ -345,6 +361,7 @@ MonoBehaviour:
   - /bugSizeV2.2_WwiseProject
   - /bugSizeV2.2_WwiseProject/Events
   - /bugSizeV2.2_WwiseProject/Events/Default Work Unit
-  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Leslie
+  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Insectos
+  - /bugSizeV2.2_WwiseProject/Events/Default Work Unit/Insectos/Gusano
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

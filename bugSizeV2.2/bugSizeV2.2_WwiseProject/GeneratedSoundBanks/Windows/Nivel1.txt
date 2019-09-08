@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	679141459	Hormiga_Muerte			\Default Work Unit\Insectos\Hormiga\Hormiga_Muerte	
 	897085895	ArmaM			\Default Work Unit\Leslie\Arma\ArmaM	
 	897085897	ArmaC			\Default Work Unit\Leslie\Arma\ArmaC	
+	929793656	GusanoRoar			\Default Work Unit\Insectos\Gusano\GusanoRoar	
 	990938024	Pulgon_Ataque			\Default Work Unit\Insectos\Pulgon\Pulgon_Ataque	
 	1156980978	Cochinilla_Muerte			\Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte	
 	1234266875	Cochinilla_Ataque			\Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque	
@@ -35,6 +36,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	641547000	muerte-cochi_02	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\muerte-cochi_71DCD608.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Cochinilla\MuerteC\MuerteC\muerte-cochi_02		277572
 	672847902	explosion-pulgon2	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\explosion-pulgon2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Pulgon\AtaqueP\ExplosionP\explosion-pulgon2		190912
 	711869736	fire-shotMatar	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\fire-shotMatar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Leslie\Arma\ArmaM\ArmaM\fire-shotMatar		253030
+	766843995	creature-roar-Gusano	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\creature-roar-Gusano_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gusano\RandomGusanoRoar\creature-roar-Gusano		617464
 	784317649	muerte-pulgon	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\muerte-pulgon_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Pulgon\MuerteP\MuerteP\muerte-pulgon		143500
 	785561563	muerte-cochi_01	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\muerte-cochi_F3F243CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Hormiga\MuerteH\MuerteH\muerte-cochi_01		278832
 	954978806	Bzzz	C:\Users\Ruby\Desktop\BugSize02_master\BugSize-02\bugSizeV2.2\bugSizeV2.2_WwiseProject\.cache\Windows\SFX\Bzzz_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Insectos\Cochinilla\AtaqueC\AtaqueC\Bzzz		101276

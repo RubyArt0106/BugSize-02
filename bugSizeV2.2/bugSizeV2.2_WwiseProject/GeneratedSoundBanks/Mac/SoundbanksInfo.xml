@@ -23,6 +23,7 @@
 				<Event Id="1234266875" Name="Cochinilla_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Ataque" DurationType="OneShot" DurationMin="0.496614" DurationMax="1.549565"/>
 				<Event Id="3411552904" Name="Cochinilla_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
 				<Event Id="1156980978" Name="Cochinilla_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Cochinilla\Cochinilla_Muerte" DurationType="OneShot" DurationMin="1.076950" DurationMax="2.016717"/>
+				<Event Id="929793656" Name="GusanoRoar" ObjectPath="\Events\Default Work Unit\Insectos\Gusano\GusanoRoar" DurationType="OneShot" DurationMin="2.859352" DurationMax="2.859352"/>
 				<Event Id="2716783014" Name="Hormiga_Ataque" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Ataque" DurationType="OneShot" DurationMin="0.614054" DurationMax="1.439257"/>
 				<Event Id="4221681157" Name="Hormiga_Curacion" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Curacion" DurationType="OneShot" DurationMin="0.748958" DurationMax="0.748958"/>
 				<Event Id="679141459" Name="Hormiga_Muerte" ObjectPath="\Events\Default Work Unit\Insectos\Hormiga\Hormiga_Muerte" DurationType="OneShot" DurationMin="1.079392" DurationMax="2.021301"/>
@@ -102,6 +103,10 @@
 				<File Id="711869736" Language="SFX">
 					<ShortName>fire-shotMatar.wav</ShortName>
 					<Path>SFX\fire-shotMatar_10C4C929.wem</Path>
+				</File>
+				<File Id="766843995" Language="SFX">
+					<ShortName>creature-roar-Gusano.wav</ShortName>
+					<Path>SFX\creature-roar-Gusano_10C4C929.wem</Path>
 				</File>
 				<File Id="784317649" Language="SFX">
 					<ShortName>muerte-pulgon.wav</ShortName>

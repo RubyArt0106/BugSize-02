@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID COCHINILLA_ATAQUE = 1234266875U;
         static const AkUniqueID COCHINILLA_CURACION = 3411552904U;
         static const AkUniqueID COCHINILLA_MUERTE = 1156980978U;
+        static const AkUniqueID GUSANOROAR = 929793656U;
         static const AkUniqueID HORMIGA_ATAQUE = 2716783014U;
         static const AkUniqueID HORMIGA_CURACION = 4221681157U;
         static const AkUniqueID HORMIGA_MUERTE = 679141459U;

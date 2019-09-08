@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 76ab6f04c8aff5f4bab7410368e52d1e
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 74b8b191c170ee24cb1dc7e1aa11fc17
+  - enabled: 1
     path: Assets/Scenes/La_buena 1.unity
     guid: b939fcdf35eeaeb4cb3768ebfd3a389d
   m_configObjects: {}

@@ -127,6 +127,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Gusano" ID="{04556405-E55A-4A18-BD01-B64F2A9FD362}" ShortID="751751065">
+							<ChildrenList>
+								<Event Name="GusanoRoar" ID="{97658D2B-4611-4EA6-8A17-EE8CF423FEC7}">
+									<ChildrenList>
+										<Action Name="" ID="{6949623F-301E-4FEB-A068-6BB0E1F75FCC}" ShortID="157082876">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RandomGusanoRoar" ID="{1E381168-C23F-4228-A82D-3061BEF066C1}" WorkUnitID="{E7B22440-C99B-431E-80F4-B003C04BB447}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Musica" ID="{ACEEE24A-93C0-41C9-8FFD-79A10376AEF8}" ShortID="474077095">
